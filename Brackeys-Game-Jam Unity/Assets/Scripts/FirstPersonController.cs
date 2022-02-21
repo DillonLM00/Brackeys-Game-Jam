@@ -13,6 +13,7 @@ public class FirstPersonController : MonoBehaviour
     public float winkelProSec = 1000f;   //Drehgeschwindigkeit
     private float nickWinkel = 0f;
     private float gierWinkel = 0f;
+    private GameObject head;
 
     public float maxAusdauerInSek = 10;
     private float currentAusdauer;
@@ -44,12 +45,30 @@ public class FirstPersonController : MonoBehaviour
 
     private void Start()
     {
+        head = transform.GetComponentInChildren<Camera>().gameObject;
         ausgangsPoseFigur = transform.localRotation;
-        ausgangsPoseHead = transform.GetChild(0).localRotation;
+        ausgangsPoseHead = head.transform.localRotation;
 
         currentMoveSpeed = moveSpeed;
 
         currentAusdauer = maxAusdauerInSek;
+    }
+
+    private bool isMoving()
+    {
+        return Input.GetAxis("Vertical") != 0 || Input.GetAxis("Horizontal") != 0;
+    }
+
+    private void MouseLook()
+    {
+        float horizontal = Input.GetAxis("Mouse X") * Time.deltaTime * winkelProSec;
+        float vertical = Input.GetAxis("Mouse Y") * Time.deltaTime * winkelProSec;
+
+        nickWinkel = Mathf.Clamp(nickWinkel - vertical, minNickWinkel, maxNickWinkel);
+        gierWinkel += horizontal;
+
+        head.transform.localRotation = Quaternion.AngleAxis(nickWinkel, Vector3.right) * ausgangsPoseHead;
+        transform.localRotation = Quaternion.AngleAxis(gierWinkel, Vector3.up) * ausgangsPoseFigur;
     }
 
     private void Update()
@@ -57,29 +76,19 @@ public class FirstPersonController : MonoBehaviour
         transform.position += transform.forward * Input.GetAxis("Vertical") * Time.deltaTime * currentMoveSpeed; //Move forward/backfords
         transform.position += transform.right * Input.GetAxis("Horizontal") * Time.deltaTime * currentMoveSpeed; //Move sidewards
 
-        if (Input.GetKey(KeyCode.LeftShift) && currentAusdauer > 0)
+        if (isMoving() && Input.GetKey(KeyCode.LeftShift) && currentAusdauer > 0)   //running
         {
             currentMoveSpeed = runningSpeed;
             currentAusdauer -= Time.deltaTime;
         }
-        else
+        else                                                                        //Recovery for running
         {
             currentMoveSpeed = moveSpeed;
             currentAusdauer = Mathf.Clamp(currentAusdauer + Time.deltaTime * maxAusdauerInSek / regenerationsZeit, 0, maxAusdauerInSek);
         }
         ausdauerAnzeige.fillAmount = currentAusdauer/maxAusdauerInSek;
-        
 
-        if (Input.GetMouseButton(1) || Input.GetMouseButton(2)) //Mouse-Look
-        {
-            float horizontal = Input.GetAxis("Mouse X") * Time.deltaTime * winkelProSec;
-            float vertical = Input.GetAxis("Mouse Y") * Time.deltaTime * winkelProSec;
 
-            nickWinkel = Mathf.Clamp(nickWinkel - vertical, minNickWinkel, maxNickWinkel);
-            gierWinkel += horizontal;
-
-            transform.GetChild(0).localRotation = Quaternion.AngleAxis(nickWinkel, Vector3.right) * ausgangsPoseHead;
-            transform.localRotation = Quaternion.AngleAxis(gierWinkel, Vector3.up) * ausgangsPoseFigur;
-        }
+        MouseLook();
     }
 }

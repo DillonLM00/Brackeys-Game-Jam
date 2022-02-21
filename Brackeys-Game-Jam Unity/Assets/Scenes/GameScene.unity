@@ -310,7 +310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 402747034}
   - component: {fileID: 402747033}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Checkpoint1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -439,7 +439,11 @@ MonoBehaviour:
   blickWinkel: 100
   lastKnownPlayerPos: {x: 0, y: 0, z: 0}
   predictedPlayerPos: {x: 0, y: 0, z: 0}
-  recognizeTime: 0.4
+  recognizeTime: 0.3
+  recognizeDistance: 5
+  ignoreTheseColliders:
+    serializedVersion: 2
+    m_Bits: 4
 --- !u!136 &433669861
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -449,7 +453,7 @@ CapsuleCollider:
   m_GameObject: {fileID: 433669859}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
@@ -764,6 +768,7 @@ GameObject:
   m_Component:
   - component: {fileID: 919199039}
   - component: {fileID: 919199040}
+  - component: {fileID: 919199041}
   m_Layer: 0
   m_Name: Player Object
   m_TagString: Untagged
@@ -807,6 +812,20 @@ MonoBehaviour:
   regenerationsZeit: 10
   ausdauerAnzeige: {fileID: 381737839}
   lastCheckpoint: {fileID: 0}
+--- !u!136 &919199041
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919199038}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1032,7 +1051,6 @@ GameObject:
   - component: {fileID: 1959753023}
   - component: {fileID: 1959753026}
   - component: {fileID: 1959753025}
-  - component: {fileID: 1959753024}
   m_Layer: 0
   m_Name: Player Body
   m_TagString: Untagged
@@ -1055,20 +1073,6 @@ Transform:
   m_Father: {fileID: 919199039}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &1959753024
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1959753022}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1959753025
 MeshRenderer:
   m_ObjectHideFlags: 0
