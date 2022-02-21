@@ -11,9 +11,12 @@ public class OpponentController : MonoBehaviour
     private NavMeshAgent agent;
     public Vector3 lastKnownPlayerPos;
     public Vector3 predictedPlayerPos;
+    private Vector3 lastPointOfView;
     private bool predicting = false;
-    public float recognizeTime = 0.4f;
-    private bool iRemember = true;
+    public float recognizeTime = 0.3f;
+    public float recognizeDistance = 5f;
+    private bool iRemember = false;
+    public LayerMask ignoreTheseColliders;
 
     private void Awake()
     {
@@ -28,18 +31,22 @@ public class OpponentController : MonoBehaviour
 
     private bool playerOnSight()
     {
-        if (Vector3.Distance(transform.position, player.transform.position) <= visionRange)
+        RaycastHit hit;
+        if(Physics.Raycast(transform.position, player.transform.position-transform.position, out hit, visionRange, ~ignoreTheseColliders))
         {
-            Vector3 richtungZumZiel = player.transform.position - transform.position;
-            if (Vector3.Angle(transform.forward, richtungZumZiel) <= blickWinkel / 2f)
+            if(hit.transform.gameObject == player)
             {
-                return true;
+                    Vector3 richtungZumZiel = player.transform.position - transform.position;
+                    if (Vector3.Angle(transform.forward, richtungZumZiel) <= blickWinkel / 2f)
+                    {
+                        return true;
+                    }
+                    /*else
+                    {
+                         transform.LookAt(player.transform);
+                    }*/   
             }
-            /*else
-            {
-                transform.LookAt(player.transform);
-            }*/
-        }   
+        }
 
         return false;
     }
@@ -56,7 +63,7 @@ public class OpponentController : MonoBehaviour
     {
         predicting = true;
         lastKnownPlayerPos = pos;
-        Debug.Log("predicting");
+        iRemember = true;
         yield return new WaitForSeconds(recognizeTime);
         predicting = false;
     }
@@ -77,10 +84,13 @@ public class OpponentController : MonoBehaviour
             if (iRemember)
             {
                 iRemember = false;
-                predictedPlayerPos = predictedPlayerPos + lastKnownPlayerPos; //laufe in die Richtung, in die der Player lief
+                lastPointOfView = predictedPlayerPos;
+                predictedPlayerPos = predictedPlayerPos + (predictedPlayerPos - lastKnownPlayerPos).normalized * recognizeDistance; //laufe in die Richtung, in die der Player lief //von A zu B B-A
                 predicting = false;
             }
-            Debug.DrawLine(predictedPlayerPos, lastKnownPlayerPos, Color.blue);
+
+            Debug.DrawLine(transform.position, predictedPlayerPos, Color.green); //calculated prediction way
+            Debug.DrawLine(lastKnownPlayerPos, lastPointOfView, Color.blue);     //the players running direction
         }
 
         agent.destination = predictedPlayerPos;
