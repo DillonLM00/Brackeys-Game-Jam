@@ -27,6 +27,9 @@ public class FirstPersonController : MonoBehaviour
 
     public Transform lastCheckpoint;
 
+
+    public Light flashlight;
+
     public void setLastCheckpoint(Transform pos)
     {
         lastCheckpoint = pos;
@@ -76,7 +79,12 @@ public class FirstPersonController : MonoBehaviour
         transform.position += transform.forward * Input.GetAxis("Vertical") * Time.deltaTime * currentMoveSpeed; //Move forward/backfords
         transform.position += transform.right * Input.GetAxis("Horizontal") * Time.deltaTime * currentMoveSpeed; //Move sidewards
 
-        if (isMoving() && Input.GetKey(KeyCode.LeftShift) && currentAusdauer > 0)   //running
+        if (flashlight.gameObject.activeSelf)       // slow walking if the Flashlight is currently active
+        {
+            currentMoveSpeed = moveSpeed * 0.75f;   // 0.75 as a test for slowdown
+            currentAusdauer = Mathf.Clamp(currentAusdauer + Time.deltaTime * maxAusdauerInSek / regenerationsZeit, 0, maxAusdauerInSek);
+        }
+        else if (isMoving() && Input.GetKey(KeyCode.LeftShift) && currentAusdauer > 0)   //running
         {
             currentMoveSpeed = runningSpeed;
             currentAusdauer -= Time.deltaTime;

@@ -24,7 +24,7 @@ public class Flashlight : MonoBehaviour
         if (batteryCharge <= 0) // only continues code if the battery has charges left
         {
             flashlightActive = false;
-            Debug.Log("Change Battery");
+            //Debug.Log("Change Battery");
             return;
         }
 
