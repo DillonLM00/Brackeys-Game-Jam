@@ -9,6 +9,10 @@ public class FirstPersonController : MonoBehaviour
     private float currentMoveSpeed;
     public float moveSpeed = 2;
     public float runningSpeed = 10;
+    public float speedChangeDuration = 0.3f;
+    private float speedChangeTime = 0f;
+    public float runRecoveryCooldown = 5f;
+    private bool runRecovery = false;
 
     //Mouse-Look
     public float winkelProSec = 1000f;
@@ -22,7 +26,7 @@ public class FirstPersonController : MonoBehaviour
     //Ausdauer
     public float maxAusdauerInSek = 10;
     private float currentAusdauer;
-    public float regenerationsZeit = 10;
+    public float regenerationsZeit = 15;
     public Image ausdauerAnzeige;
 
     //Respawn
@@ -55,6 +59,16 @@ public class FirstPersonController : MonoBehaviour
         return currentMoveSpeed;
     }
 
+    private IEnumerator RunRecoveryCooldown()
+    {
+        runRecovery = true;
+        Color col = ausdauerAnzeige.color;
+        ausdauerAnzeige.color = Color.red;
+        yield return new WaitForSeconds(runRecoveryCooldown);
+        ausdauerAnzeige.color = col;
+        runRecovery = false;
+    }
+
     private void MouseLook()
     {
         float horizontal = Input.GetAxis("Mouse X") * Time.deltaTime * winkelProSec;
@@ -85,23 +99,31 @@ public class FirstPersonController : MonoBehaviour
 
     private void Update()
     {
-        if (isMoving() && Input.GetKey(KeyCode.LeftShift) && currentAusdauer > 0)   //running
+        if(flashlight.gameObject.activeSelf) //slow walking if the Flashlight is currently active
         {
-            currentMoveSpeed = runningSpeed;
+            currentMoveSpeed = Mathf.Lerp(moveSpeed*flashlightSlowDown, runningSpeed, speedChangeTime / speedChangeDuration);
+            currentAusdauer = Mathf.Clamp(currentAusdauer + Time.deltaTime * maxAusdauerInSek / regenerationsZeit, 0, maxAusdauerInSek);
+            speedChangeTime = Mathf.Clamp01(speedChangeTime - Time.deltaTime);
+        }
+        else if (isMoving() && Input.GetKey(KeyCode.LeftShift) && !runRecovery && !flashlight.gameObject.activeSelf)   //running
+        {
+            currentMoveSpeed = Mathf.Lerp(moveSpeed, runningSpeed, speedChangeTime / speedChangeDuration);
             currentAusdauer -= Time.deltaTime;
+            speedChangeTime = Mathf.Clamp01(speedChangeTime + Time.deltaTime);
+
+            if(currentAusdauer <= 0)
+            {
+                StartCoroutine(RunRecoveryCooldown());
+            }
         }
         else                                                                        //Recovery for running
         {
-            currentMoveSpeed = moveSpeed;
+            currentMoveSpeed = Mathf.Lerp(moveSpeed, runningSpeed, speedChangeTime / speedChangeDuration);
             currentAusdauer = Mathf.Clamp(currentAusdauer + Time.deltaTime * maxAusdauerInSek / regenerationsZeit, 0, maxAusdauerInSek);
+            speedChangeTime = Mathf.Clamp01(speedChangeTime - Time.deltaTime);
         }
         ausdauerAnzeige.fillAmount = currentAusdauer/maxAusdauerInSek;
-
-        if (flashlight.gameObject.activeSelf)       //if the Flashlight is currently active, player will slow down
-        {
-            currentMoveSpeed *= flashlightSlowDown;   // 0.75 as a test for slowdown
-        }
-
+        
         transform.position += transform.forward * Input.GetAxis("Vertical") * Time.deltaTime * currentMoveSpeed; //Move forward/backfords
         transform.position += transform.right * Input.GetAxis("Horizontal") * Time.deltaTime * currentMoveSpeed; //Move sidewards
 

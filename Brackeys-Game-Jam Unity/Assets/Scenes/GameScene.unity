@@ -257,7 +257,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &381737838
 RectTransform:
   m_ObjectHideFlags: 0
@@ -273,10 +273,10 @@ RectTransform:
   m_Father: {fileID: 190924059}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 20, y: 100}
+  m_SizeDelta: {x: 20, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &381737839
 MonoBehaviour:
@@ -453,8 +453,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visionRange: 20
   blickWinkel: 100
-  lastKnownPlayerPos: {x: 0, y: 0, z: 0}
-  predictedPlayerPos: {x: 0, y: 0, z: 0}
+  earshot: 30
+  noiseTolerance: 5
+  noiseMultiplier: 5
   recognizeTime: 0.3
   recognizeDistance: 5
   ignoreTheseColliders:
@@ -941,9 +942,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   runningSpeed: 10
+  speedChangeDuration: 0.3
+  runRecoveryCooldown: 5
   winkelProSec: 1000
   maxAusdauerInSek: 10
-  regenerationsZeit: 10
+  regenerationsZeit: 15
   ausdauerAnzeige: {fileID: 381737839}
   flashlight: {fileID: 1484110134460222330}
   flashlightSlowDown: 0.65
@@ -973,8 +976,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e56abfca8129b64448cc656d5ee05db7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idleHeadPos: {x: 0, y: 0, z: 0}
-  currentHeadPos: {x: 0, y: 0, z: 0}
   smoothingIdle: 0.02
   bobbingStrengthHorizontal: 0.035
   bobbingStrengthVertical: 0.035
