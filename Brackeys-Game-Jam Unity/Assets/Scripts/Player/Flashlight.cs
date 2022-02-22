@@ -7,7 +7,9 @@ public class Flashlight : MonoBehaviour
 {
     public Light flashlightLight;
     public float batteryCharge = 100;
-    private float batteryUsePerSecond = 10; // how much charge gets used per second
+    private float batteryUsePerSecond = 30; // how much charge gets used per second
+
+    public int exchangeBatteries = 3;
 
     private bool flashlightActive = false;
     
@@ -15,18 +17,20 @@ public class Flashlight : MonoBehaviour
     {
         flashlightLight.gameObject.SetActive(flashlightActive);
 
+        if (batteryCharge <= 0) // only continues code if the battery has charges left
+        {
+            flashlightActive = false;
+            changeBattery();
+            
+            return;
+        }
+
         if (!Input.GetMouseButton(0))   // only continues code if the left mouse button is down
         {
             flashlightActive = false;
             return;
         }
 
-        if (batteryCharge <= 0) // only continues code if the battery has charges left
-        {
-            flashlightActive = false;
-            //Debug.Log("Change Battery");
-            return;
-        }
 
         batteryCharge -= batteryUsePerSecond * Time.deltaTime;    // uses charge per seconnd
 
@@ -38,7 +42,17 @@ public class Flashlight : MonoBehaviour
         flashlightActive = true;
     }
 
-  
 
+    public void changeBattery() // switches the battery and reduces the extra batteries 
+    {
+        if (exchangeBatteries > 0)
+        {
+            if (Input.GetKey(KeyCode.R))
+            {
+                exchangeBatteries -= 1;
+                batteryCharge = 100;
+            }
+        }
+    }
 
 }
