@@ -32,9 +32,11 @@ public class HeadBobbing : MonoBehaviour
         {
             float bobAmplitude = Mathf.Sqrt(player.getWalkingSpeed() / 100f);
             float bobFrequency = movingTime * bobFrequencyMultiplier * Mathf.Sqrt(player.getWalkingSpeed());
-            
-            float horizontalOffset = idleHeadPos.x + Mathf.Cos(bobFrequency) * bobbingStrengthHorizontal + bobAmplitude;
-            float verticalOffset = idleHeadPos.y + Mathf.Sin(bobFrequency * 2) * bobbingStrengthVertical + bobAmplitude;
+
+            float cosValue = Mathf.Cos(bobFrequency);
+            float sinValue = Mathf.Sin(bobFrequency * 2);
+            float horizontalOffset = idleHeadPos.x + cosValue * bobbingStrengthHorizontal + bobAmplitude;
+            float verticalOffset = idleHeadPos.y + sinValue * bobbingStrengthVertical + bobAmplitude;
             currentHeadPos = new Vector3(horizontalOffset, verticalOffset, 0);
 
             idleTime = 0f;
