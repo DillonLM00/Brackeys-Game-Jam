@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 900b89af52b527244819c24dbb1fbffd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flashlight: {fileID: 0}
+  flashlight: {fileID: 602606044}
   batteryChargeDisplay: {fileID: 1694716495}
   execssBatteriesDisplay: {fileID: 1985941596}
 --- !u!108 &224686185 stripped
@@ -667,6 +667,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &602606044 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3630871535045473578, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
+  m_PrefabInstance: {fileID: 4863879178531255925}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
