@@ -5,30 +5,34 @@ using UnityEngine.UI;
 
 public class FirstPersonController : MonoBehaviour
 {
+    //Bewegung
     private float currentMoveSpeed;
-    public float moveSpeed = 2;    //increase while running
+    public float moveSpeed = 2;
     public float runningSpeed = 10;
 
-
-    public float winkelProSec = 1000f;   //Drehgeschwindigkeit
+    //Mouse-Look
+    public float winkelProSec = 1000f;
     private float nickWinkel = 0f;
     private float gierWinkel = 0f;
+    private float minNickWinkel = -20f, maxNickWinkel = 40f;
     private GameObject head;
+    private Quaternion ausgangsPoseFigur;
+    private Quaternion ausgangsPoseHead;
 
+    //Ausdauer
     public float maxAusdauerInSek = 10;
     private float currentAusdauer;
     public float regenerationsZeit = 10;
     public Image ausdauerAnzeige;
 
-    private Quaternion ausgangsPoseFigur;
-    private Quaternion ausgangsPoseHead;
-    
-    private float minNickWinkel = -20f, maxNickWinkel = 40f;
+    //Respawn
+    private Transform lastCheckpoint;
 
-    public Transform lastCheckpoint;
-
-
+    //Flashlight
     public Light flashlight;
+    public float flashlightSlowDown = 0.65f;
+
+    //----------------------------------------------
 
     public void setLastCheckpoint(Transform pos)
     {
@@ -41,25 +45,14 @@ public class FirstPersonController : MonoBehaviour
         transform.rotation = lastCheckpoint.rotation;
     }
 
-    private void Awake()
-    {
-        lastCheckpoint = transform;
-    }
-
-    private void Start()
-    {
-        head = transform.GetComponentInChildren<Camera>().gameObject;
-        ausgangsPoseFigur = transform.localRotation;
-        ausgangsPoseHead = head.transform.localRotation;
-
-        currentMoveSpeed = moveSpeed;
-
-        currentAusdauer = maxAusdauerInSek;
-    }
-
-    private bool isMoving()
+    public bool isMoving()
     {
         return Input.GetAxis("Vertical") != 0 || Input.GetAxis("Horizontal") != 0;
+    }
+
+    public float getWalkingSpeed()
+    {
+        return currentMoveSpeed;
     }
 
     private void MouseLook()
@@ -74,17 +67,25 @@ public class FirstPersonController : MonoBehaviour
         transform.localRotation = Quaternion.AngleAxis(gierWinkel, Vector3.up) * ausgangsPoseFigur;
     }
 
+    private void Awake()
+    {
+        lastCheckpoint = transform;
+
+        head = transform.GetComponentInChildren<Camera>().gameObject;
+    }
+
+    private void Start()
+    {
+        ausgangsPoseFigur = transform.localRotation;
+        ausgangsPoseHead = head.transform.localRotation;
+
+        currentMoveSpeed = moveSpeed;
+        currentAusdauer = maxAusdauerInSek;
+    }
+
     private void Update()
     {
-        transform.position += transform.forward * Input.GetAxis("Vertical") * Time.deltaTime * currentMoveSpeed; //Move forward/backfords
-        transform.position += transform.right * Input.GetAxis("Horizontal") * Time.deltaTime * currentMoveSpeed; //Move sidewards
-
-        if (flashlight.gameObject.activeSelf)       // slow walking if the Flashlight is currently active
-        {
-            currentMoveSpeed = moveSpeed * 0.75f;   // 0.75 as a test for slowdown
-            currentAusdauer = Mathf.Clamp(currentAusdauer + Time.deltaTime * maxAusdauerInSek / regenerationsZeit, 0, maxAusdauerInSek);
-        }
-        else if (isMoving() && Input.GetKey(KeyCode.LeftShift) && currentAusdauer > 0)   //running
+        if (isMoving() && Input.GetKey(KeyCode.LeftShift) && currentAusdauer > 0)   //running
         {
             currentMoveSpeed = runningSpeed;
             currentAusdauer -= Time.deltaTime;
@@ -96,6 +97,13 @@ public class FirstPersonController : MonoBehaviour
         }
         ausdauerAnzeige.fillAmount = currentAusdauer/maxAusdauerInSek;
 
+        if (flashlight.gameObject.activeSelf)       //if the Flashlight is currently active, player will slow down
+        {
+            currentMoveSpeed *= flashlightSlowDown;   // 0.75 as a test for slowdown
+        }
+
+        transform.position += transform.forward * Input.GetAxis("Vertical") * Time.deltaTime * currentMoveSpeed; //Move forward/backfords
+        transform.position += transform.right * Input.GetAxis("Horizontal") * Time.deltaTime * currentMoveSpeed; //Move sidewards
 
         MouseLook();
     }
