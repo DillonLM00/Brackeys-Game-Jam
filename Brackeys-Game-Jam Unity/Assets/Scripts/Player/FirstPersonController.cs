@@ -32,6 +32,9 @@ public class FirstPersonController : MonoBehaviour
     public Light flashlight;
     public float flashlightSlowDown = 0.65f;
 
+    // Animationen
+    public Animator playerAnimController;
+
     //----------------------------------------------
 
     public void setLastCheckpoint(Transform pos)
@@ -104,6 +107,7 @@ public class FirstPersonController : MonoBehaviour
 
         transform.position += transform.forward * Input.GetAxis("Vertical") * Time.deltaTime * currentMoveSpeed; //Move forward/backfords
         transform.position += transform.right * Input.GetAxis("Horizontal") * Time.deltaTime * currentMoveSpeed; //Move sidewards
+        playerAnimController.SetBool("WalkBool", isMoving());
 
         MouseLook();
     }
