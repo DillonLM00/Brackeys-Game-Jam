@@ -6,8 +6,8 @@ using UnityEngine;
 public class Flashlight : MonoBehaviour
 {
     public Light flashlightLight;
-    private float batteryCharge = 100;
-    private float batteryUsePerSecond = 20; // how much charge gets used per second
+    public float batteryCharge = 100;
+    private float batteryUsePerSecond = 10; // how much charge gets used per second
 
     private bool flashlightActive = false;
     
@@ -29,6 +29,11 @@ public class Flashlight : MonoBehaviour
         }
 
         batteryCharge -= batteryUsePerSecond * Time.deltaTime;    // uses charge per seconnd
+
+        if(batteryCharge <= 0)      
+        {
+            batteryCharge = 0;          // minimum of 0% charge for the battery
+        }
 
         flashlightActive = true;
     }
