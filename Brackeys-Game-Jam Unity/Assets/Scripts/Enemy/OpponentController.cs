@@ -80,13 +80,23 @@ public class OpponentController : MonoBehaviour
         {
             float lightStrength = 1f;
             Light light = fpc.flashlightLight.GetComponent<Light>();
-            
-            //light.intensity
-            //light.gameObject.transform.forward
+            float lightDistance = Vector3.Distance(transform.position, light.gameObject.transform.position);
+
+            Vector3 lightDirection = light.gameObject.transform.forward;
             //light.range
             //light.color helligkeit der farbe
 
             //fallof der lichtquelle (typ und range)
+
+            if(light.type == LightType.Spot) //this is where direction matters
+            {
+                if (Vector3.Angle(lightDirection, transform.position - player.transform.position) > light.spotAngle) //opponent not in light cone
+                {
+                    return false;
+                }
+            }
+
+            float intensityAtPosition = 1 / (lightDistance * lightDistance) * light.intensity; //inverse-square law of light (fall off)
             
             return lightStrength >= lightAttraction;
         }
