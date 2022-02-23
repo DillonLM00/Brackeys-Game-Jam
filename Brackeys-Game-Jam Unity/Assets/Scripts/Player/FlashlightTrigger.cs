@@ -33,7 +33,7 @@ public class FlashlightTrigger : MonoBehaviour
 
             if (flashlight.activeSelf && monster.isEvil)
             {
-                monster.TransformIntoCute(monster.transform.GetChild(0).transform);
+                monster.TransformIntoCuteOverTime(monster.transform.GetChild(0).transform);
                 Debug.Log("Transform to cute");
             }
             else if (!flashlight.activeSelf && !monster.isEvil)

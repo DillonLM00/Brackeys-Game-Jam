@@ -9,6 +9,8 @@ public class OpponentTransform : MonoBehaviour
     public bool isEvil = true;
     private GameObject child;
 
+    private float transformFormsDelay = 1f;     // time to change between 0 and number in seconds
+
     private void Start()
     {
         child = transform.GetChild(0).gameObject;
@@ -27,5 +29,14 @@ public class OpponentTransform : MonoBehaviour
         Destroy(child);
         child = Instantiate(evilVersion, pos.position, pos.rotation, gameObject.transform);
         isEvil = true;
+    }
+
+    public void TransformIntoCuteOverTime(Transform pos)
+    {
+        transformFormsDelay -= Time.deltaTime;
+        if(isEvil && transformFormsDelay <= 0)
+        {
+            TransformIntoCute(pos);
+        }
     }
 }

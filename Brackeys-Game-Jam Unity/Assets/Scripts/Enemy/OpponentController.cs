@@ -19,6 +19,7 @@ public class OpponentController : MonoBehaviour
     public float noiseMultiplier = 5f;
     public float lightAttraction = 5f;
 
+
     private Vector3 lastKnownPlayerPos;
     private Vector3 predictedPlayerPos;
     private Vector3 lastPointOfView;
