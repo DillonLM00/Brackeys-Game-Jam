@@ -10,7 +10,8 @@ public class OpponentTransform : MonoBehaviour
     private GameObject child;
     private Transform childPos;
 
-    private float transformFormsDelay = 1f;     // time to change between 0 and number in seconds
+    private float transformFormsDelay = 1f;         // time to change from Evil to cute;
+    private float CuteToEvilTimeMultiplier = 0.5f;  // how long it takes to change back to evil: 0.5 -> twice the time
 
     private void Start()
     {
@@ -44,16 +45,20 @@ public class OpponentTransform : MonoBehaviour
 
     public void TransformIntoCuteOverTime()
     {
-        transformFormsDelay -= Time.deltaTime;         // you can ad a variable to change the time to transform
-        if(isEvil && transformFormsDelay <= 0f)
+        transformFormsDelay -= Time.deltaTime;         
+        if(transformFormsDelay <= 0f)
         {
-            TransformIntoCute();
+            transformFormsDelay = 0f;           // caps the length of transformation, remove to increase time corresponding to light length
+            if (isEvil)
+            {
+                TransformIntoCute();
+            }
         }
     }
 
     private void TransformIntoEvilOverTime()
     {
-        transformFormsDelay += Time.deltaTime * 0.2f;
+        transformFormsDelay += Time.deltaTime * CuteToEvilTimeMultiplier;
 
         if (transformFormsDelay >= 1f)
         {

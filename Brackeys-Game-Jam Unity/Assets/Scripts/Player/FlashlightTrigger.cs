@@ -49,12 +49,11 @@ public class FlashlightTrigger : MonoBehaviour
     {
         if (other.gameObject.tag == "Monster")
         {
-            OpponentTransform monster = other.transform.parent.GetComponent<OpponentTransform>();
+            //OpponentTransform monster = other.transform.parent.GetComponent<OpponentTransform>();
 
             if (flashlight.activeSelf)
             {
-                monster.TransformIntoCuteOverTime();
-                Debug.Log("Transform to cute");
+                other.transform.parent.GetComponent<OpponentTransform>().TransformIntoCuteOverTime();
             }
         }
     }
