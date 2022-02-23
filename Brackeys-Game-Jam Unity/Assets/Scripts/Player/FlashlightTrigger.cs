@@ -16,28 +16,30 @@ public class FlashlightTrigger : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.tag == "Monster")
-        {
-            other.GetComponent<OpponentTransform>().TransformIntoEvil();
-        }
+        OpponentTransform monster = other.transform.parent.GetComponent<OpponentTransform>();
 
-        Debug.Log("Transform to evil");
+        if (other.gameObject.tag == "Monster" && !monster.isEvil)
+        {
+           monster.TransformIntoEvil(monster.transform.GetChild(0).transform);
+           Debug.Log("Transform to evil");
+        }
     }
 
     private void OnTriggerStay(Collider other)
     {
-        OpponentTransform monster = other.gameObject.GetComponent<OpponentTransform>();
-
-
         if (other.gameObject.tag == "Monster")
         {
+            OpponentTransform monster = other.transform.parent.GetComponent<OpponentTransform>();
+
             if (flashlight.activeSelf && monster.isEvil)
             {
-                monster.TransformIntoCute();
+                monster.TransformIntoCute(monster.transform.GetChild(0).transform);
+                Debug.Log("Transform to cute");
             }
             else if (!flashlight.activeSelf && !monster.isEvil)
             {
-                monster.TransformIntoEvil();
+                monster.TransformIntoEvil(monster.transform.GetChild(0).transform);
+                Debug.Log("Transform to evil2");
             }
         }
     }

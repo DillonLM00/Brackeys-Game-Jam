@@ -15,17 +15,17 @@ public class OpponentTransform : MonoBehaviour
     }
 
     // The flashlights light has a trigger collider which interacts with the opponents and transforms them
-    public void TransformIntoCute()
+    public void TransformIntoCute(Transform pos)
     {
         Destroy(child);
-        child = Instantiate(harmlessVersion, gameObject.transform);
+        child = Instantiate(harmlessVersion, pos.position, pos.rotation, gameObject.transform);
         isEvil = false;
     }
 
-    public void TransformIntoEvil()
+    public void TransformIntoEvil(Transform pos)
     {
         Destroy(child);
-        child = Instantiate(evilVersion, gameObject.transform);
+        child = Instantiate(evilVersion, pos.position, pos.rotation, gameObject.transform);
         isEvil = true;
     }
 }
