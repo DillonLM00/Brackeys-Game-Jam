@@ -14,32 +14,47 @@ public class FlashlightTrigger : MonoBehaviour
     //    }
     //}
 
-    private void OnTriggerExit(Collider other)
-    {
-        OpponentTransform monster = other.transform.parent.GetComponent<OpponentTransform>();
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    OpponentTransform monster = other.transform.parent.GetComponent<OpponentTransform>();
 
-        if (other.gameObject.tag == "Monster" && !monster.isEvil)
-        {
-           monster.TransformIntoEvil(monster.transform.GetChild(0).transform);
-           Debug.Log("Transform to evil");
-        }
-    }
+    //    if (other.gameObject.tag == "Monster" && !monster.isEvil)
+    //    {
+    //       monster.TransformIntoEvil();
+    //       Debug.Log("Transform to evil");
+    //    }
+    //}
 
+    //private void OnTriggerStay(Collider other)
+    //{
+    //    if (other.gameObject.tag == "Monster")
+    //    {
+    //        OpponentTransform monster = other.transform.parent.GetComponent<OpponentTransform>();
+
+    //        if (flashlight.activeSelf && monster.isEvil)
+    //        {
+    //            monster.TransformIntoCute();
+    //            Debug.Log("Transform to cute");
+    //        }
+    //        else if (!flashlight.activeSelf && !monster.isEvil)
+    //        {
+    //            monster.TransformIntoEvil();
+    //            Debug.Log("Transform to evil2");
+    //        }
+    //    }
+    //}
+
+    // Trasform over Time solution
     private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "Monster")
         {
             OpponentTransform monster = other.transform.parent.GetComponent<OpponentTransform>();
 
-            if (flashlight.activeSelf && monster.isEvil)
+            if (flashlight.activeSelf)
             {
-                monster.TransformIntoCuteOverTime(monster.transform.GetChild(0).transform);
+                monster.TransformIntoCuteOverTime();
                 Debug.Log("Transform to cute");
-            }
-            else if (!flashlight.activeSelf && !monster.isEvil)
-            {
-                monster.TransformIntoEvil(monster.transform.GetChild(0).transform);
-                Debug.Log("Transform to evil2");
             }
         }
     }

@@ -8,6 +8,7 @@ public class OpponentTransform : MonoBehaviour
     public GameObject evilVersion;
     public bool isEvil = true;
     private GameObject child;
+    private Transform childPos;
 
     private float transformFormsDelay = 1f;     // time to change between 0 and number in seconds
 
@@ -16,27 +17,47 @@ public class OpponentTransform : MonoBehaviour
         child = transform.GetChild(0).gameObject;
     }
 
-    // The flashlights light has a trigger collider which interacts with the opponents and transforms them
-    public void TransformIntoCute(Transform pos)
+    private void Update()
     {
+        if (!isEvil)        
+        {
+            TransformIntoEvilOverTime();
+        }
+    }
+
+    // The flashlights light has a trigger collider which interacts with the opponents and transforms them
+    public void TransformIntoCute()
+    {
+        childPos = child.transform;
         Destroy(child);
-        child = Instantiate(harmlessVersion, pos.position, pos.rotation, gameObject.transform);
+        child = Instantiate(harmlessVersion, childPos.position, childPos.rotation, gameObject.transform);
         isEvil = false;
     }
 
-    public void TransformIntoEvil(Transform pos)
+    public void TransformIntoEvil()
     {
+        childPos = child.transform;
         Destroy(child);
-        child = Instantiate(evilVersion, pos.position, pos.rotation, gameObject.transform);
+        child = Instantiate(evilVersion, childPos.position, childPos.rotation, gameObject.transform);
         isEvil = true;
     }
 
-    public void TransformIntoCuteOverTime(Transform pos)
+    public void TransformIntoCuteOverTime()
     {
-        transformFormsDelay -= Time.deltaTime;
-        if(isEvil && transformFormsDelay <= 0)
+        transformFormsDelay -= Time.deltaTime;         // you can ad a variable to change the time to transform
+        if(isEvil && transformFormsDelay <= 0f)
         {
-            TransformIntoCute(pos);
+            TransformIntoCute();
+        }
+    }
+
+    private void TransformIntoEvilOverTime()
+    {
+        transformFormsDelay += Time.deltaTime * 0.2f;
+
+        if (transformFormsDelay >= 1f)
+        {
+            TransformIntoEvil();
         }
     }
 }
