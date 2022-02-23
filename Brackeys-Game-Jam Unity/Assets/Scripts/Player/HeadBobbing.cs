@@ -14,15 +14,17 @@ public class HeadBobbing : MonoBehaviour
     private float movingTime = 0f;
     public float smoothingIdle = 0.02f;
 
-    public float bobbingStrengthHorizontal = 0.035f;
-    public float bobbingStrengthVertical = 0.035f;
+    public float bobbingStrengthHorizontal = 0.2f;
+    public float bobbingStrengthVertical = 0.2f;
     public float bobFrequencyMultiplier = 4f;
+    public float speedImpactFreq = 0.15f;
+    public float speedImpactStrength = 0.2f;
 
     private void Awake()
     {
         player = GetComponent<FirstPersonController>();
         head = transform.GetComponentInChildren<Camera>().gameObject;
-        idleHeadPos = head.transform.position;
+        idleHeadPos = head.transform.localPosition;
         currentHeadPos = idleHeadPos;
     }
 
@@ -30,13 +32,13 @@ public class HeadBobbing : MonoBehaviour
     {
         if (player.isMoving())
         {
-            float bobAmplitude = Mathf.Sqrt(player.getWalkingSpeed() / 100f);
-            float bobFrequency = movingTime * bobFrequencyMultiplier * Mathf.Sqrt(player.getWalkingSpeed());
+            float bobAmplitude = Mathf.Sqrt(player.getWalkingSpeed() * speedImpactStrength/10f);
+            float bobFrequency = movingTime * bobFrequencyMultiplier * Mathf.Sqrt(player.getWalkingSpeed()*speedImpactFreq);
 
             float cosValue = Mathf.Cos(bobFrequency);
             float sinValue = Mathf.Sin(bobFrequency * 2);
-            float horizontalOffset = idleHeadPos.x + cosValue * bobbingStrengthHorizontal + bobAmplitude;
-            float verticalOffset = idleHeadPos.y + sinValue * bobbingStrengthVertical + bobAmplitude;
+            float horizontalOffset = idleHeadPos.x + cosValue * bobbingStrengthHorizontal * bobAmplitude;
+            float verticalOffset = idleHeadPos.y + sinValue * bobbingStrengthVertical * bobAmplitude;
             currentHeadPos = new Vector3(horizontalOffset, verticalOffset, 0);
 
             idleTime = 0f;

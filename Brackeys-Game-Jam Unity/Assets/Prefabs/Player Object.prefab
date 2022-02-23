@@ -196,14 +196,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  runningSpeed: 10
+  runningSpeed: 8
   speedChangeDuration: 0.3
   runRecoveryCooldown: 5
   winkelProSec: 1000
   maxAusdauerInSek: 10
   regenerationsZeit: 10
   ausdauerAnzeige: {fileID: 0}
-  flashlight: {fileID: 0}
+  fovChangeStrength: 10
+  fovChangeDuration: 2
+  flashlight: {fileID: 6288769739689540963}
   flashlightSlowDown: 0.65
   playerAnimController: {fileID: 4863879177605302078}
 --- !u!136 &4863879179358169908
@@ -233,9 +235,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   smoothingIdle: 0.02
-  bobbingStrengthHorizontal: 0.035
-  bobbingStrengthVertical: 0.035
+  bobbingStrengthHorizontal: 0.2
+  bobbingStrengthVertical: 0.2
   bobFrequencyMultiplier: 4
+  speedImpactFreq: 0.15
+  speedImpactStrength: 0.2
 --- !u!1 &6288769739689540963
 GameObject:
   m_ObjectHideFlags: 0

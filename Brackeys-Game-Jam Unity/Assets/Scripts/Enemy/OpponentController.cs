@@ -3,17 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+[RequireComponent(typeof(NavMeshAgent))]
 public class OpponentController : MonoBehaviour
 {
     private GameObject player;
+    private FirstPersonController fpc;
 
     private NavMeshAgent agent;
+    private Animator animController;
 
     public float visionRange = 20f;
     public float blickWinkel = 100f;
-    public float earshot = 30f;
+    public float earRange = 30f;
     public float noiseTolerance = 5f;
     public float noiseMultiplier = 5f;
+    public float lightAttraction = 5f;
 
     private Vector3 lastKnownPlayerPos;
     private Vector3 predictedPlayerPos;
@@ -27,8 +31,10 @@ public class OpponentController : MonoBehaviour
 
     private void Awake()
     {
-        player = FindObjectOfType<FirstPersonController>().gameObject;
+        fpc = FindObjectOfType<FirstPersonController>();
+        player = fpc.gameObject;
         agent = GetComponent<NavMeshAgent>();
+        animController = GetComponentInChildren<Animator>();
     }
 
     void Start()
@@ -54,11 +60,11 @@ public class OpponentController : MonoBehaviour
         return false;
     }
 
-    private bool hearingPlayer() //wahrscheinlichkeit, dass opponent den player überhört oder übersieht
+    private bool noticingPlayer() //wahrscheinlichkeit, dass opponent den player überhört oder übersieht
     {
         //how much noise does the player make based on distance and velocity
         float distance = Vector3.Distance(transform.position, player.transform.position);
-        if (distance <= earshot)
+        if (distance <= earRange)
         {
             float noise = Mathf.Pow(player.GetComponent<FirstPersonController>().getWalkingSpeed() / distance, 2) * noiseMultiplier;
             //Debug.Log(noise);
@@ -68,7 +74,23 @@ public class OpponentController : MonoBehaviour
                 return true;
             }
         }
-        
+
+        //opponent also gets attracted by light
+        if (fpc.flashlightLight.activeSelf)
+        {
+            float lightStrength = 1f;
+            Light light = fpc.flashlightLight.GetComponent<Light>();
+            
+            //light.intensity
+            //light.gameObject.transform.forward
+            //light.range
+            //light.color helligkeit der farbe
+
+            //fallof der lichtquelle (typ und range)
+            
+            return lightStrength >= lightAttraction;
+        }
+
         return false;
     }
 
@@ -99,6 +121,7 @@ public class OpponentController : MonoBehaviour
                 StartCoroutine(lastPos(player.transform.position));
 
             predictedPlayerPos = player.transform.position;
+            animController.SetInteger("WalkInt", 2);
         }
         else if(iRemember)
         {
@@ -106,19 +129,25 @@ public class OpponentController : MonoBehaviour
             lastPointOfView = predictedPlayerPos;
             predictedPlayerPos = predictedPlayerPos + (predictedPlayerPos - lastKnownPlayerPos).normalized * recognizeDistance; //laufe in die Richtung, in die der Player lief //von A zu B B-A
             predicting = false;
+            animController.SetInteger("WalkInt", 1);
 
             Debug.DrawLine(transform.position, predictedPlayerPos, Color.green); //calculated prediction way
             Debug.DrawLine(lastKnownPlayerPos, lastPointOfView, Color.blue);     //the players running direction
         }
-        else if(hearingPlayer())    //listening behaviour
+        else if(noticingPlayer())    //noticing behaviour
         {
             transform.LookAt(player.transform); //walk in the direction of the noise
+            animController.SetInteger("WalkInt", 1);
         }
         else         //normal behaviour
         {
             //Patrouillie
+            animController.SetInteger("WalkInt", 1);
         }
 
         agent.destination = predictedPlayerPos;
+
+        if (agent.velocity == Vector3.zero)
+            animController.SetInteger("WalkInt", 0);
     }
 }
