@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OponnentTransform : MonoBehaviour
+public class OpponentTransform : MonoBehaviour
 {
     public GameObject harmlessVersion;
     public GameObject evilVersion;
+    public bool isEvil = true;
     private GameObject child;
 
     private void Start()
@@ -13,17 +14,18 @@ public class OponnentTransform : MonoBehaviour
         child = transform.GetChild(0).gameObject;
     }
 
-    // This is untested!!!!
     // The flashlights light has a trigger collider which interacts with the opponents and transforms them
-    private void OnTriggerEnter(Collider other)
+    public void TransformIntoCute()
     {
         Destroy(child);
         child = Instantiate(harmlessVersion, gameObject.transform);
+        isEvil = false;
     }
 
-    private void OnTriggerExit(Collider other)
+    public void TransformIntoEvil()
     {
         Destroy(child);
         child = Instantiate(evilVersion, gameObject.transform);
+        isEvil = true;
     }
 }
