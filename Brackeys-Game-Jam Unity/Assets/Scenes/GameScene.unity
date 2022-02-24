@@ -413,7 +413,7 @@ PrefabInstance:
     - target: {fileID: 3170019746641915891, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: flashlight
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1457327699}
     - target: {fileID: 3170019746641915892, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -755,6 +755,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1457327699 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3630871535045473578, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
+  m_PrefabInstance: {fileID: 4863879178531255925}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1934607873
 GameObject:
   m_ObjectHideFlags: 0
