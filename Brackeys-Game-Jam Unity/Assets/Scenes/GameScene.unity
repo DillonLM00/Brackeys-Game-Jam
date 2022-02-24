@@ -223,7 +223,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &420788724
 GameObject:
@@ -280,7 +280,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &453503623
 GameObject:
@@ -378,7 +378,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &602606044 stripped
 GameObject:
@@ -478,7 +478,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!114 &705507996
 MonoBehaviour:
@@ -500,6 +500,22 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
+--- !u!1 &1080465323 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3170019748503822597, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+  m_PrefabInstance: {fileID: 2505418207478229630}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1355216836 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3170019746994027402, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+  m_PrefabInstance: {fileID: 2505418207478229630}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1934607873
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,7 +581,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2505418207478229630
 PrefabInstance:
@@ -670,19 +686,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3170019746641915891, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: flashlight
+      value: 
+      objectReference: {fileID: 602606044}
+    - target: {fileID: 3170019747572603456, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: pausePanel
+      value: 
+      objectReference: {fileID: 1080465323}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
---- !u!114 &3170019746797446606 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 665165776287485872, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
-  m_PrefabInstance: {fileID: 2505418207478229630}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &8374406906253104060
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -741,6 +754,6 @@ PrefabInstance:
     - target: {fileID: 8374406905468194556, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
       propertyPath: ausdauerAnzeige
       value: 
-      objectReference: {fileID: 3170019746797446606}
+      objectReference: {fileID: 1355216836}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
