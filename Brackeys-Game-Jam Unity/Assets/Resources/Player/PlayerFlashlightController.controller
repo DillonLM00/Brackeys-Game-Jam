@@ -46,7 +46,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 3fe56cb31e28db94fa53aa8cd5438963, type: 2}
+  m_Motion: {fileID: 7400000, guid: 8953a573714f6e0459be681780121ded, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -58,7 +58,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PlayerAnimController
+  m_Name: PlayerFlashlightController
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: WalkInt
@@ -157,7 +157,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 00227961772bb6b4e933aa068827c91e, type: 2}
+  m_Motion: {fileID: 7400000, guid: 2caca567565c93c4487ee1df527d2c7e, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

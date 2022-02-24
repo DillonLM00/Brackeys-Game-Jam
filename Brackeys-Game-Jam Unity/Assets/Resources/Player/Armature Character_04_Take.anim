@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Armature_04_Take
+  m_Name: Armature Character_04_Take
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -36,7 +36,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature
+    path: Armature Character
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -61,7 +61,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root
+    path: Armature Character/Root
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -86,7 +86,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L
+    path: Armature Character/Root/Shoulder.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -111,7 +111,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -136,7 +136,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -161,7 +161,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -186,7 +186,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinkie1.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinkie1.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -211,7 +211,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinkie1.L/Pinkie2.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinkie1.L/Pinkie2.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -236,7 +236,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinkie1.L/Pinkie2.L/Pinkie3.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinkie1.L/Pinkie2.L/Pinkie3.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -261,7 +261,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/RingFinger1.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/RingFinger1.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -286,7 +286,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/RingFinger1.L/RingFinger2.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/RingFinger1.L/RingFinger2.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -311,7 +311,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/RingFinger1.L/RingFinger2.L/RingFinger3.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/RingFinger1.L/RingFinger2.L/RingFinger3.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -336,7 +336,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/MiddleFinger1.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/MiddleFinger1.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -361,7 +361,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/MiddleFinger1.L/MiddleFinger2.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/MiddleFinger1.L/MiddleFinger2.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -386,7 +386,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/MiddleFinger1.L/MiddleFinger2.L/MiddleFinger3.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/MiddleFinger1.L/MiddleFinger2.L/MiddleFinger3.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -411,7 +411,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/IndexFinger1.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/IndexFinger1.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -436,7 +436,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/IndexFinger1.L/IndexFinger2.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/IndexFinger1.L/IndexFinger2.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -461,7 +461,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/IndexFinger1.L/IndexFinger2.L/IndexFinger3.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/IndexFinger1.L/IndexFinger2.L/IndexFinger3.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -486,7 +486,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -511,7 +511,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L/Thumb2.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L/Thumb2.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -536,7 +536,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L/Thumb2.L/Thumb3.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L/Thumb2.L/Thumb3.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -561,7 +561,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/HandSlot.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/HandSlot.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -586,7 +586,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/ElbowTarget.L
+    path: Armature Character/Root/Shoulder.L/ElbowTarget.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -611,7 +611,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/HandControl.L
+    path: Armature Character/Root/HandControl.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -636,7 +636,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R
+    path: Armature Character/Root/Shoulder.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -769,7 +769,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -893,7 +893,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1026,7 +1026,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1114,7 +1114,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinkie1.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinkie1.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1202,7 +1202,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinkie1.R/Pinkie2.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinkie1.R/Pinkie2.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1290,7 +1290,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinkie1.R/Pinkie2.R/Pinkie3.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinkie1.R/Pinkie2.R/Pinkie3.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1378,7 +1378,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/RingFinger1.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/RingFinger1.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1466,7 +1466,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/RingFinger1.R/RingFinger2.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/RingFinger1.R/RingFinger2.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1554,7 +1554,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/RingFinger1.R/RingFinger2.R/RingFinger3.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/RingFinger1.R/RingFinger2.R/RingFinger3.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1642,7 +1642,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/MiddleFinger1.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/MiddleFinger1.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1730,7 +1730,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/MiddleFinger1.R/MiddleFinger2.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/MiddleFinger1.R/MiddleFinger2.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1818,7 +1818,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/MiddleFinger1.R/MiddleFinger2.R/MiddleFinger3.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/MiddleFinger1.R/MiddleFinger2.R/MiddleFinger3.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1906,7 +1906,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/IndexFinger1.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/IndexFinger1.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1994,7 +1994,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/IndexFinger1.R/IndexFinger2.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/IndexFinger1.R/IndexFinger2.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2082,7 +2082,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/IndexFinger1.R/IndexFinger2.R/IndexFinger3.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/IndexFinger1.R/IndexFinger2.R/IndexFinger3.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2107,7 +2107,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2204,7 +2204,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R/Thumb2.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R/Thumb2.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2265,7 +2265,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R/Thumb2.R/Thumb3.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R/Thumb2.R/Thumb3.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2290,7 +2290,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/HandSlot.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/HandSlot.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2315,7 +2315,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/ElbowTarget.R
+    path: Armature Character/Root/Shoulder.R/ElbowTarget.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2439,7 +2439,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/HandControl.R
+    path: Armature Character/Root/HandControl.R
   m_CompressedRotationCurves: []
   m_EulerCurves: []
   m_PositionCurves:
@@ -2467,7 +2467,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature
+    path: Armature Character
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2492,7 +2492,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root
+    path: Armature Character/Root
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2517,7 +2517,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L
+    path: Armature Character/Root/Shoulder.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2542,7 +2542,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2567,7 +2567,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2592,7 +2592,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2617,7 +2617,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinkie1.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinkie1.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2642,7 +2642,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinkie1.L/Pinkie2.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinkie1.L/Pinkie2.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2667,7 +2667,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinkie1.L/Pinkie2.L/Pinkie3.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinkie1.L/Pinkie2.L/Pinkie3.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2692,7 +2692,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/RingFinger1.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/RingFinger1.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2717,7 +2717,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/RingFinger1.L/RingFinger2.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/RingFinger1.L/RingFinger2.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2742,7 +2742,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/RingFinger1.L/RingFinger2.L/RingFinger3.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/RingFinger1.L/RingFinger2.L/RingFinger3.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2767,7 +2767,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/MiddleFinger1.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/MiddleFinger1.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2792,7 +2792,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/MiddleFinger1.L/MiddleFinger2.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/MiddleFinger1.L/MiddleFinger2.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2817,7 +2817,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/MiddleFinger1.L/MiddleFinger2.L/MiddleFinger3.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/MiddleFinger1.L/MiddleFinger2.L/MiddleFinger3.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2842,7 +2842,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/IndexFinger1.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/IndexFinger1.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2867,7 +2867,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/IndexFinger1.L/IndexFinger2.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/IndexFinger1.L/IndexFinger2.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2892,7 +2892,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/IndexFinger1.L/IndexFinger2.L/IndexFinger3.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/IndexFinger1.L/IndexFinger2.L/IndexFinger3.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2917,7 +2917,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2942,7 +2942,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L/Thumb2.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L/Thumb2.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2967,7 +2967,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L/Thumb2.L/Thumb3.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L/Thumb2.L/Thumb3.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2992,7 +2992,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/HandSlot.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/HandSlot.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3017,7 +3017,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/ElbowTarget.L
+    path: Armature Character/Root/Shoulder.L/ElbowTarget.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3042,7 +3042,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/HandControl.L
+    path: Armature Character/Root/HandControl.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3067,7 +3067,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R
+    path: Armature Character/Root/Shoulder.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3092,7 +3092,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3117,7 +3117,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3142,7 +3142,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3293,7 +3293,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinkie1.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinkie1.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3318,7 +3318,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinkie1.R/Pinkie2.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinkie1.R/Pinkie2.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3343,7 +3343,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinkie1.R/Pinkie2.R/Pinkie3.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinkie1.R/Pinkie2.R/Pinkie3.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3485,7 +3485,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/RingFinger1.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/RingFinger1.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3510,7 +3510,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/RingFinger1.R/RingFinger2.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/RingFinger1.R/RingFinger2.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3535,7 +3535,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/RingFinger1.R/RingFinger2.R/RingFinger3.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/RingFinger1.R/RingFinger2.R/RingFinger3.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3677,7 +3677,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/MiddleFinger1.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/MiddleFinger1.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3702,7 +3702,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/MiddleFinger1.R/MiddleFinger2.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/MiddleFinger1.R/MiddleFinger2.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3727,7 +3727,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/MiddleFinger1.R/MiddleFinger2.R/MiddleFinger3.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/MiddleFinger1.R/MiddleFinger2.R/MiddleFinger3.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3869,7 +3869,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/IndexFinger1.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/IndexFinger1.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3894,7 +3894,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/IndexFinger1.R/IndexFinger2.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/IndexFinger1.R/IndexFinger2.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3919,7 +3919,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/IndexFinger1.R/IndexFinger2.R/IndexFinger3.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/IndexFinger1.R/IndexFinger2.R/IndexFinger3.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3944,7 +3944,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3969,7 +3969,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R/Thumb2.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R/Thumb2.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3994,7 +3994,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R/Thumb2.R/Thumb3.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R/Thumb2.R/Thumb3.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4019,7 +4019,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/HandSlot.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/HandSlot.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4188,7 +4188,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/ElbowTarget.R
+    path: Armature Character/Root/Shoulder.R/ElbowTarget.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4393,7 +4393,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/HandControl.R
+    path: Armature Character/Root/HandControl.R
   m_ScaleCurves:
   - curve:
       serializedVersion: 2
@@ -4419,7 +4419,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4444,7 +4444,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4469,7 +4469,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4494,7 +4494,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinkie1.L/Pinkie2.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinkie1.L/Pinkie2.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4519,7 +4519,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinkie1.L/Pinkie2.L/Pinkie3.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Pinkie1.L/Pinkie2.L/Pinkie3.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4544,7 +4544,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/RingFinger1.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/RingFinger1.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4569,7 +4569,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/RingFinger1.L/RingFinger2.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/RingFinger1.L/RingFinger2.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4594,7 +4594,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/RingFinger1.L/RingFinger2.L/RingFinger3.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/RingFinger1.L/RingFinger2.L/RingFinger3.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4619,7 +4619,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/MiddleFinger1.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/MiddleFinger1.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4644,7 +4644,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/MiddleFinger1.L/MiddleFinger2.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/MiddleFinger1.L/MiddleFinger2.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4669,7 +4669,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/MiddleFinger1.L/MiddleFinger2.L/MiddleFinger3.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/MiddleFinger1.L/MiddleFinger2.L/MiddleFinger3.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4694,7 +4694,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/IndexFinger1.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/IndexFinger1.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4719,7 +4719,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/IndexFinger1.L/IndexFinger2.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/IndexFinger1.L/IndexFinger2.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4744,7 +4744,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/IndexFinger1.L/IndexFinger2.L/IndexFinger3.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/IndexFinger1.L/IndexFinger2.L/IndexFinger3.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4769,7 +4769,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4794,7 +4794,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L/Thumb2.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L/Thumb2.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4819,7 +4819,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L/Thumb2.L/Thumb3.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Thumb1.L/Thumb2.L/Thumb3.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4844,7 +4844,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/HandSlot.L
+    path: Armature Character/Root/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/HandSlot.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4869,7 +4869,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/HandControl.L
+    path: Armature Character/Root/HandControl.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4894,7 +4894,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4919,7 +4919,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4944,7 +4944,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4969,7 +4969,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinkie1.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinkie1.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -4994,7 +4994,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinkie1.R/Pinkie2.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinkie1.R/Pinkie2.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -5019,7 +5019,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinkie1.R/Pinkie2.R/Pinkie3.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Pinkie1.R/Pinkie2.R/Pinkie3.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -5044,7 +5044,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/RingFinger1.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/RingFinger1.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -5069,7 +5069,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/RingFinger1.R/RingFinger2.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/RingFinger1.R/RingFinger2.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -5094,7 +5094,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/RingFinger1.R/RingFinger2.R/RingFinger3.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/RingFinger1.R/RingFinger2.R/RingFinger3.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -5119,7 +5119,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/MiddleFinger1.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/MiddleFinger1.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -5144,7 +5144,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/MiddleFinger1.R/MiddleFinger2.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/MiddleFinger1.R/MiddleFinger2.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -5169,7 +5169,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/MiddleFinger1.R/MiddleFinger2.R/MiddleFinger3.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/MiddleFinger1.R/MiddleFinger2.R/MiddleFinger3.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -5194,7 +5194,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/IndexFinger1.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/IndexFinger1.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -5219,7 +5219,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/IndexFinger1.R/IndexFinger2.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/IndexFinger1.R/IndexFinger2.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -5244,7 +5244,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/IndexFinger1.R/IndexFinger2.R/IndexFinger3.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/IndexFinger1.R/IndexFinger2.R/IndexFinger3.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -5269,7 +5269,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -5294,7 +5294,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R/Thumb2.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R/Thumb2.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -5319,7 +5319,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R/Thumb2.R/Thumb3.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Thumb1.R/Thumb2.R/Thumb3.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -5344,7 +5344,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/HandSlot.R
+    path: Armature Character/Root/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/HandSlot.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -5369,7 +5369,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Armature/Root/HandControl.R
+    path: Armature Character/Root/HandControl.R
   m_FloatCurves: []
   m_PPtrCurves: []
   m_SampleRate: 24
@@ -5378,924 +5378,7 @@ AnimationClip:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
   m_ClipBindingConstant:
-    genericBindings:
-    - serializedVersion: 2
-      path: 2523147592
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2738722687
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1362455810
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1202365144
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3870110984
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2303080038
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 533147884
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 375894672
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 523238803
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2523147592
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1320015628
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 639845083
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2738722687
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 88013727
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 4048367677
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1362455810
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3200943544
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2467251782
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1202365144
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2806908063
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1729515636
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 551439667
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2284683868
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2303080038
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2104266162
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3160000220
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1875380474
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 14758765
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3846178305
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3405162054
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3321743960
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 4020886357
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 445642510
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 683090776
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3993142032
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 728082117
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2873856097
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3786145989
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2563367566
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3429212091
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 971802862
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2107545655
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1587911651
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2027029450
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1394473679
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 70732223
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3048443729
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1934166789
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2512860569
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 533147884
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 375894672
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 523238803
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1320015628
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 639845083
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 88013727
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 4048367677
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3200943544
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2467251782
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2806908063
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1729515636
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2396948076
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 551439667
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2284683868
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 933085824
-      attribute: 1
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2104266162
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3160000220
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1875380474
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 14758765
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3846178305
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3405162054
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3321743960
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 4020886357
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 445642510
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 683090776
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3993142032
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 728082117
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2873856097
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3786145989
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2563367566
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3429212091
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 971802862
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2107545655
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1587911651
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2027029450
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1394473679
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 70732223
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3048443729
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1934166789
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2512860569
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2396948076
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 933085824
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3870110984
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 14758765
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3846178305
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3405162054
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 4020886357
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 445642510
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 683090776
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3993142032
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 728082117
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2873856097
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3786145989
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2563367566
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3429212091
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 971802862
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2107545655
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1587911651
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2027029450
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1394473679
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 70732223
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1934166789
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 533147884
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 375894672
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 523238803
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2523147592
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1320015628
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 639845083
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2738722687
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 88013727
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 4048367677
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1362455810
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3200943544
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2467251782
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1202365144
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2806908063
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1729515636
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2396948076
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 551439667
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2284683868
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 933085824
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2303080038
-      attribute: 3
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
+    genericBindings: []
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
