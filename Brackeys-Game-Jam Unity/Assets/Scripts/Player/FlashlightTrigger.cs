@@ -14,30 +14,46 @@ public class FlashlightTrigger : MonoBehaviour
     //    }
     //}
 
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.tag == "Monster")
-        {
-            other.GetComponent<OpponentTransform>().TransformIntoEvil();
-        }
+    //private void OnTriggerExit(Collider other)
+    //{
+    //    OpponentTransform monster = other.transform.parent.GetComponent<OpponentTransform>();
 
-        Debug.Log("Transform to evil");
-    }
+    //    if (other.gameObject.tag == "Monster" && !monster.isEvil)
+    //    {
+    //       monster.TransformIntoEvil();
+    //       Debug.Log("Transform to evil");
+    //    }
+    //}
 
+    //private void OnTriggerStay(Collider other)
+    //{
+    //    if (other.gameObject.tag == "Monster")
+    //    {
+    //        OpponentTransform monster = other.transform.parent.GetComponent<OpponentTransform>();
+
+    //        if (flashlight.activeSelf && monster.isEvil)
+    //        {
+    //            monster.TransformIntoCute();
+    //            Debug.Log("Transform to cute");
+    //        }
+    //        else if (!flashlight.activeSelf && !monster.isEvil)
+    //        {
+    //            monster.TransformIntoEvil();
+    //            Debug.Log("Transform to evil2");
+    //        }
+    //    }
+    //}
+
+    // Trasform over Time solution
     private void OnTriggerStay(Collider other)
     {
-        OpponentTransform monster = other.gameObject.GetComponent<OpponentTransform>();
-
-
         if (other.gameObject.tag == "Monster")
         {
-            if (flashlight.activeSelf && monster.isEvil)
+            //OpponentTransform monster = other.transform.parent.GetComponent<OpponentTransform>();
+
+            if (flashlight.activeSelf)
             {
-                monster.TransformIntoCute();
-            }
-            else if (!flashlight.activeSelf && !monster.isEvil)
-            {
-                monster.TransformIntoEvil();
+                other.transform.parent.GetComponent<OpponentTransform>().TransformIntoCuteOverTime();
             }
         }
     }

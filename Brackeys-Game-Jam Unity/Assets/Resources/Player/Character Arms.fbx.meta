@@ -27,6 +27,54 @@ ModelImporter:
   - first:
       74: -4350179163048247736
     second: Armature|07_Flashlight_Check
+  - first:
+      74: 7668488837091342951
+    second: Armature Character|00_T_Pose
+  - first:
+      74: 7613150811322041827
+    second: Armature Character|01_Euqip_Flashlight
+  - first:
+      74: 4364941319105102422
+    second: Armature Character|02_Take_off_Flashlight
+  - first:
+      74: -2277698107137331216
+    second: Armature Character|03_Idle_Flashlight
+  - first:
+      74: -1540165000623883812
+    second: Armature Character|04_Take
+  - first:
+      74: 7217011985816282215
+    second: Armature Character|05_Scared
+  - first:
+      74: 3551944597370621060
+    second: Armature Character|06_Flashlight_On_Off
+  - first:
+      74: 8001018402515441057
+    second: Armature Character|07_Walking_Flashlight
+  - first:
+      74: -3616011118460805864
+    second: Armature Character|08_Running_Flashlight
+  - first:
+      74: 2761772338884692299
+    second: Armature Character|09_Flashlight_Check
+  - first:
+      74: -8784020350190247222
+    second: Armature Character|10_Euqip_Lighter
+  - first:
+      74: -7823667664234922163
+    second: Armature Character|11_Idle_Lighter
+  - first:
+      74: -2447012182438222574
+    second: Armature Character|12_Lighter_On
+  - first:
+      74: 6673623242632653024
+    second: Armature Character|13_Take_off_Lighter
+  - first:
+      74: 4681549693313113177
+    second: Armature Character|14_Walking_Lighter
+  - first:
+      74: -8859590716777989620
+    second: Armature Character|15_Running_Lighter
   externalObjects: {}
   materials:
     materialImportMode: 2
