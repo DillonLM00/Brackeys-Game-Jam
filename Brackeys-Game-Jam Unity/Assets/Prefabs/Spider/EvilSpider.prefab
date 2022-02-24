@@ -70,17 +70,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f02b673056ba4746a25d7053eb39ffd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  runningSpeed: 5
+  walkingSpeed: 3.5
   visionRange: 20
   blickWinkel: 100
   earRange: 30
   noiseTolerance: 5
   noiseMultiplier: 5
-  lightAttraction: 5
+  lightAttraction: 0.2
+  foolishness: 0.05
   recognizeTime: 0.3
   recognizeDistance: 5
   ignoreTheseColliders:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4
 --- !u!54 &2946138354241489215
 Rigidbody:
   m_ObjectHideFlags: 0
