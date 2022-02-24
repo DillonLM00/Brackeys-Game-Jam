@@ -53,7 +53,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 28ae49ec580badf4791641b9ba4cccad, type: 3}
       propertyPath: m_Name
-      value: straight_fence (1)
+      value: StraightFence
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28ae49ec580badf4791641b9ba4cccad, type: 3}
+--- !u!1 &5986592487247675652 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 28ae49ec580badf4791641b9ba4cccad, type: 3}
+  m_PrefabInstance: {fileID: 6905654267657763925}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &29709057130176998
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5986592487247675652}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.13009071, y: 1.3943048, z: 1}
+  m_Center: {x: -0.016259909, y: 0.55487204, z: 0}

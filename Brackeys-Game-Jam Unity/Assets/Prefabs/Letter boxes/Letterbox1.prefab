@@ -53,7 +53,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7112d535e005aaf49a2e37f953e51a88, type: 3}
       propertyPath: m_Name
-      value: Briefkasten1mBriefen
+      value: Letterbox1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7112d535e005aaf49a2e37f953e51a88, type: 3}
+--- !u!1 &2011791663639373831 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7112d535e005aaf49a2e37f953e51a88, type: 3}
+  m_PrefabInstance: {fileID: 1669208227853374806}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2544089470587050517
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011791663639373831}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7498541, y: 1.8270128, z: 0.48439312}
+  m_Center: {x: -0.15570283, y: 0.7606474, z: -0.022972584}

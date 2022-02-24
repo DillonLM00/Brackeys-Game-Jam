@@ -172,7 +172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3589c9c43ec394a4399c4d5f57b3da19, type: 3}
       propertyPath: m_Name
-      value: "Stra\xDFenLaterne (1) Variant"
+      value: StreetLantern
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 3589c9c43ec394a4399c4d5f57b3da19, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -184,6 +184,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3589c9c43ec394a4399c4d5f57b3da19, type: 3}
+--- !u!1 &3481917989749750104 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3589c9c43ec394a4399c4d5f57b3da19, type: 3}
+  m_PrefabInstance: {fileID: 4364876613165138953}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3375689264882982822
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3481917989749750104}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.43646574, y: 4.803856, z: 0.5209958}
+  m_Center: {x: 0, y: 2.3950205, z: -0.028176695}
 --- !u!4 &4258594739171042274 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3589c9c43ec394a4399c4d5f57b3da19, type: 3}

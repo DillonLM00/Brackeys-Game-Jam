@@ -53,7 +53,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 581938e65bfe9fa40abda55d5e56f5ac, type: 3}
       propertyPath: m_Name
-      value: chainlink_fence (1)
+      value: ChainlinkFence
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 581938e65bfe9fa40abda55d5e56f5ac, type: 3}
+--- !u!1 &6101947311624147142 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 581938e65bfe9fa40abda55d5e56f5ac, type: 3}
+  m_PrefabInstance: {fileID: 6372330766752083351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8921460509221762445
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6101947311624147142}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1734786, y: 1.9478517, z: 2.5825784}
+  m_Center: {x: 0.002447009, y: 0.9607618, z: 0.017397761}

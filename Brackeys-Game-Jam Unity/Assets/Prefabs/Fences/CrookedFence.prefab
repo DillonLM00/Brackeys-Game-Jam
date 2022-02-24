@@ -53,7 +53,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 89010329bbacc344490b756913e1169f, type: 3}
       propertyPath: m_Name
-      value: crooked_fence1 (1)
+      value: CrookedFence
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 89010329bbacc344490b756913e1169f, type: 3}
+--- !u!1 &5923501551269824447 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 89010329bbacc344490b756913e1169f, type: 3}
+  m_PrefabInstance: {fileID: 6842630945068350190}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &5237297688572167235
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5923501551269824447}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1416825, y: 1.4056714, z: 1.665422}
+  m_Center: {x: -0.02173394, y: 0.5447588, z: 0.02590537}

@@ -53,7 +53,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d88aad0aeda858f4d82dfc8eb47161f2, type: 3}
       propertyPath: m_Name
-      value: house_rlly_small Variant
+      value: HouseVerysmall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d88aad0aeda858f4d82dfc8eb47161f2, type: 3}
+--- !u!1 &999990725334110337 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d88aad0aeda858f4d82dfc8eb47161f2, type: 3}
+  m_PrefabInstance: {fileID: 81565714761428432}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &8769575327985894584
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999990725334110337}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.828131, y: 6.8710966, z: 8.773767}
+  m_Center: {x: 0.027180672, y: 2.9355483, z: -0.054362297}
