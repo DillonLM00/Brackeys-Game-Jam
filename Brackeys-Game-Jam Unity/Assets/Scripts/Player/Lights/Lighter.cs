@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Lighter : MonoBehaviour
 {
-    public Light flashlightLight;
+    public Light LighterLight;
 
     private bool lighterActive = false;
 
@@ -20,7 +20,7 @@ public class Lighter : MonoBehaviour
 
     private void Update()
     {
-        flashlightLight.gameObject.SetActive(lighterActive);
+        LighterLight.gameObject.SetActive(lighterActive);
 
         if (lighterNeedsRestart)
         {

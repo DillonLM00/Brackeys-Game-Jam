@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FlashlightTrigger : MonoBehaviour
 {
-    public Light flashlight;
+    public Light flashlightLight;
 
     //private void OnTriggerEnter(Collider other)
     //{
@@ -51,7 +51,7 @@ public class FlashlightTrigger : MonoBehaviour
         {
             //OpponentTransform monster = other.transform.parent.GetComponent<OpponentTransform>();
 
-            if (flashlight.gameObject.activeSelf)
+            if (flashlightLight.gameObject.activeSelf)
             {
                 other.transform.parent.GetComponent<OpponentTransform>().TransformIntoCuteOverTime();
             }

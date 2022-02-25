@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class LighterTrigger : MonoBehaviour
 {
-    public Light lighter;
+    public Light lighterLight;
     private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "Monster")
         {
             //OpponentTransform monster = other.transform.parent.GetComponent<OpponentTransform>();
 
-            if (lighter.gameObject.activeSelf)
+            if (lighterLight.gameObject.activeSelf)
             {
                 other.transform.parent.GetComponent<OpponentTransform>().TransformIntoCuteOverTime();
             }

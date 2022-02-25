@@ -644,6 +644,11 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
+--- !u!108 &865060991 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 4965155159611259470, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
+  m_PrefabInstance: {fileID: 4863879178531255925}
+  m_PrefabAsset: {fileID: 0}
 --- !u!108 &1038526879 stripped
 Light:
   m_CorrespondingSourceObject: {fileID: 2444600833012120362, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
@@ -770,10 +775,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 387004837421569805, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 548618926665855068, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
       propertyPath: flashlight
       value: 
       objectReference: {fileID: 1038526879}
+    - target: {fileID: 589061986869126113, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 736934041349471510, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
+      propertyPath: lighterLight
+      value: 
+      objectReference: {fileID: 865060991}
+    - target: {fileID: 3630871535045473578, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4863879177605302078, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f050475c25eddf549911e152dc304239, type: 2}
     - target: {fileID: 4863879179358169909, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
       propertyPath: changeSpeedFov
       value: 3
@@ -830,6 +855,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player Object
       objectReference: {fileID: 0}
+    - target: {fileID: 4965155159611259470, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
+      propertyPath: m_Range
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4968949414961803395, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.195
@@ -839,6 +868,10 @@ PrefabInstance:
       value: 0.203
       objectReference: {fileID: 0}
     - target: {fileID: 6334143663956847163, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7716707571281351614, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
