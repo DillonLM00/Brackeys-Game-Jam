@@ -122,6 +122,9 @@ public class FirstPersonController : MonoBehaviour
 
             fovChangeTime = Mathf.Clamp01(fovChangeTime - Time.deltaTime);
             currentFOV = Mathf.Lerp(fovAtStart, fovAtStart + fovChangeStrength, fovChangeTime / fovChangeDuration);
+
+            playerAnimController.SetFloat("WalkInt", 1);
+            playerAnimController.SetFloat("WalkSpeed", currentMoveSpeed);
         }
         else if (isMoving() && Input.GetKey(KeyCode.LeftShift) && !runRecovery && !flashlightLight.gameObject.activeSelf)   //running
         {
@@ -137,6 +140,9 @@ public class FirstPersonController : MonoBehaviour
             {
                 StartCoroutine(RunRecoveryCooldown());
             }
+
+            playerAnimController.SetFloat("WalkInt", 2);
+            playerAnimController.SetFloat("WalkSpeed", currentMoveSpeed/4f);
         }
         else                                                                        //Recovery for running
         {
@@ -147,6 +153,9 @@ public class FirstPersonController : MonoBehaviour
 
             fovChangeTime = Mathf.Clamp01(fovChangeTime - Time.deltaTime);
             currentFOV = Mathf.Lerp(fovAtStart, fovAtStart + fovChangeStrength, fovChangeTime / fovChangeDuration);
+
+            playerAnimController.SetFloat("WalkInt", 1);
+            playerAnimController.SetFloat("WalkSpeed", currentMoveSpeed);
         }
         ausdauerAnzeige.fillAmount = currentAusdauer/maxAusdauerInSek;
         camera.fieldOfView = currentFOV;

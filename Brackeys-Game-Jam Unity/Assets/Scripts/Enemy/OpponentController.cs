@@ -142,13 +142,17 @@ public class OpponentController : MonoBehaviour
 
     private void Update()
     {
-        if (agent.velocity == Vector3.zero)
+        if (!agent.hasPath)
         {
-            animController.SetInteger("WalkInt", 0);
+            Debug.Log("not moving");
+            animController.SetInteger("WalkInt", 0); //überschreibt WalkInt, 1
             notMoving += Time.deltaTime;
 
             if (notMoving >= patrouilleWaitTime)
+            {
                 patrouille = true;
+                notMoving = 0f;
+            }
         }
         else
         {
@@ -195,10 +199,8 @@ public class OpponentController : MonoBehaviour
                 agent.destination = predictedPlayerPos;
             }
         }
-        else if(patrouille)        //normal behaviour
+        else if(patrouille)        //Patrouille
         {
-            //Patrouille
-
             agent.speed = walkingSpeed;
             animController.SetInteger("WalkInt", 1);
 
@@ -215,7 +217,5 @@ public class OpponentController : MonoBehaviour
 
             patrouille = false;
         }
-
-        //agent.destination = predictedPlayerPos;
     }
 }

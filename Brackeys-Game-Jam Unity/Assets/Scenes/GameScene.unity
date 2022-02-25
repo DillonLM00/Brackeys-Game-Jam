@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spider
       objectReference: {fileID: 0}
+    - target: {fileID: 1615796690549866291, guid: d910a8da6a124bc44b773c0259dcbacb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5546677720962969219, guid: d910a8da6a124bc44b773c0259dcbacb, type: 3}
       propertyPath: m_RootOrder
       value: 2
