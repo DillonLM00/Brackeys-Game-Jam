@@ -123,17 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: 09f1e0cf483c48d4587d74a1b6e05945, type: 2}
---- !u!114 &68782886 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3170019746994027402, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
-  m_PrefabInstance: {fileID: 475569732}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &383322040
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -410,6 +399,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 665165776000457673, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: flashlight
+      value: 
+      objectReference: {fileID: 1457327699}
+    - target: {fileID: 665165776000457678, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3170019746641915891, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: flashlight
       value: 
@@ -513,7 +510,7 @@ PrefabInstance:
     - target: {fileID: 3170019748476323267, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 987201856}
+      objectReference: {fileID: 0}
     - target: {fileID: 3170019748476323267, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
@@ -647,15 +644,20 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
---- !u!114 &987201856 stripped
+--- !u!108 &1038526879 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 2444600833012120362, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
+  m_PrefabInstance: {fileID: 4863879178531255925}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1271610759 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3170019746641915890, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+  m_CorrespondingSourceObject: {fileID: 665165776287485872, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
   m_PrefabInstance: {fileID: 475569732}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90ce566999c25d74687fc98f15247483, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1457327699 stripped
@@ -768,6 +770,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 548618926665855068, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
+      propertyPath: flashlight
+      value: 
+      objectReference: {fileID: 1038526879}
     - target: {fileID: 4863879179358169909, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
       propertyPath: changeSpeedFov
       value: 3
@@ -775,7 +781,7 @@ PrefabInstance:
     - target: {fileID: 4863879179358169909, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
       propertyPath: ausdauerAnzeige
       value: 
-      objectReference: {fileID: 68782886}
+      objectReference: {fileID: 1271610759}
     - target: {fileID: 4863879179358169930, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
       propertyPath: m_RootOrder
       value: 1
