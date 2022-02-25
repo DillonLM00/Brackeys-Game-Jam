@@ -521,6 +521,14 @@ PrefabInstance:
       value: If you have Arachnophobia (Fear of Spiders) you can deactivate them
         in the settings Tab
       objectReference: {fileID: 0}
+    - target: {fileID: 1633459946625952682, guid: 0bb6d7f8f770ac741b3f0d0cb77d85c4, type: 3}
+      propertyPath: spriteChanges.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: f77525308a955f74aa3272a2fd4e0e74, type: 3}
+    - target: {fileID: 1633459946625952682, guid: 0bb6d7f8f770ac741b3f0d0cb77d85c4, type: 3}
+      propertyPath: spriteChanges.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: c73f87e4099028546ba3e0b3d2423291, type: 3}
     - target: {fileID: 1653632805199399376, guid: 0bb6d7f8f770ac741b3f0d0cb77d85c4, type: 3}
       propertyPath: m_UiScaleMode
       value: 1
