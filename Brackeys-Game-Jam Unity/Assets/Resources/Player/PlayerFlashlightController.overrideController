@@ -6,6 +6,6 @@ AnimatorOverrideController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PlayerOverrideController
-  m_Controller: {fileID: 0}
+  m_Name: PlayerFlashlightController
+  m_Controller: {fileID: 9100000, guid: f050475c25eddf549911e152dc304239, type: 2}
   m_Clips: []
