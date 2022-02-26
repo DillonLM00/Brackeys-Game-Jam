@@ -497,6 +497,7 @@ GameObject:
   - component: {fileID: 665165776000457676}
   - component: {fileID: 665165776000457677}
   - component: {fileID: 665165776000457672}
+  - component: {fileID: 5643931765439141701}
   m_Layer: 5
   m_Name: IngameUICanvas
   m_TagString: Untagged
@@ -602,6 +603,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pausePanel: {fileID: 665165775716914495}
   ingameUI: {fileID: 3128653124713583672}
+--- !u!114 &5643931765439141701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665165776000457666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a344f92a2704b64ebf500c5b564f861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkboxOn: {fileID: 2336163540968182710}
+  checkboxOff: {fileID: 3156988999950260388}
 --- !u!1 &665165776287485878
 GameObject:
   m_ObjectHideFlags: 0
