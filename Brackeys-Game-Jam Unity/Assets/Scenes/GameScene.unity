@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 1271760978}
     - target: {fileID: 7174100506148320795, guid: 06a39cf52c731fb409fd1ebeafc4f34e, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7174100506148320795, guid: 06a39cf52c731fb409fd1ebeafc4f34e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -250,11 +250,11 @@ PrefabInstance:
     - target: {fileID: 8158220853126990741, guid: d910a8da6a124bc44b773c0259dcbacb, type: 3}
       propertyPath: patrouillePoint
       value: 
-      objectReference: {fileID: 1970933710}
+      objectReference: {fileID: 0}
     - target: {fileID: 8158220853126990741, guid: d910a8da6a124bc44b773c0259dcbacb, type: 3}
       propertyPath: patrouilliePoint
       value: 
-      objectReference: {fileID: 1970933710}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d910a8da6a124bc44b773c0259dcbacb, type: 3}
 --- !u!1 &402747032
@@ -1056,37 +1056,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1970933709
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1970933710}
-  m_Layer: 0
-  m_Name: PatrouilliePunkt
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1970933710
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970933709}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.756846, y: 2.059595, z: 6.2976985}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2045784467 stripped
 MonoBehaviour:
