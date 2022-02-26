@@ -2185,7 +2185,7 @@ GameObject:
   - component: {fileID: 8027473543703735572}
   - component: {fileID: 5993636022115276213}
   m_Layer: 5
-  m_Name: MainMenuButton
+  m_Name: BackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2239,7 +2239,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f1d17afb71a617f49a28065247cfb5bc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c73f87e4099028546ba3e0b3d2423291, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2293,7 +2293,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 665165775716914495}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -2305,7 +2305,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 5568235379398767142}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -2330,10 +2330,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteChanges:
-  - {fileID: 21300000, guid: f1d17afb71a617f49a28065247cfb5bc, type: 3}
-  - {fileID: 21300000, guid: ded3c953a2f999d4a9c14d1e2c9aade9, type: 3}
-  - {fileID: 21300000, guid: 02c87e6b70f6b4c4e814100b952d5a22, type: 3}
-  - {fileID: 21300000, guid: 057ac7b69b424a943b518ff415361c4b, type: 3}
+  - {fileID: 21300000, guid: 282218846ffd3144dafd1d91687be8bc, type: 3}
+  - {fileID: 21300000, guid: f77525308a955f74aa3272a2fd4e0e74, type: 3}
+  - {fileID: 21300000, guid: fed74812bc36b6e41802c953d77a5a51, type: 3}
+  - {fileID: 21300000, guid: c73f87e4099028546ba3e0b3d2423291, type: 3}
 --- !u!1 &7821526926065463740
 GameObject:
   m_ObjectHideFlags: 0
@@ -2647,7 +2647,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 5568235379398767142}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
