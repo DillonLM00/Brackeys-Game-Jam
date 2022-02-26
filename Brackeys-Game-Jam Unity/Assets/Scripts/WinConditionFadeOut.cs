@@ -20,7 +20,7 @@ public class WinConditionFadeOut : MonoBehaviour
         if (alpha >= 1)
             SceneManager.LoadScene("MainMenu");
 
-        alpha += Time.deltaTime * fadeSpeed;
+        alpha += Time.deltaTime / fadeSpeed;
         fadeOut.color = new Color(fadeOut.color.r, fadeOut.color.g, fadeOut.color.b, alpha);
     }
 }
