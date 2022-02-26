@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!4 &898653153609309855
 Transform:
@@ -166,9 +166,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8004966292037330821, guid: 4d85d43107f43fa418bc71f5aac4c84c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7465872538085353669, guid: 4d85d43107f43fa418bc71f5aac4c84c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4d85d43107f43fa418bc71f5aac4c84c, type: 3}
       propertyPath: m_Name
       value: ParkLantern
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4d85d43107f43fa418bc71f5aac4c84c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162820104835090806, guid: 4d85d43107f43fa418bc71f5aac4c84c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d85d43107f43fa418bc71f5aac4c84c, type: 3}
