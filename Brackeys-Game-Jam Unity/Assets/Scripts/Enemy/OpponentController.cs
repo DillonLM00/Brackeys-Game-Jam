@@ -215,7 +215,7 @@ public class OpponentController : MonoBehaviour
         {
             agent.speed = walkingSpeed;
             animController.SetInteger("WalkInt", 1);
-            Debug.Log(patrouilleCycle);
+
             if (patrouilleCycle == true)
             {
                 agent.destination = patrouilleStartPos.position;
