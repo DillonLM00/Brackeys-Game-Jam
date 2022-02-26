@@ -8,8 +8,8 @@ OcclusionCullingSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: 635d997a6308fda45af310a9560d701f
+  m_OcclusionCullingData: {fileID: 36300000, guid: 0e7546dcae9298947acd49f721b6fb47, type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -24762,6 +24762,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4863879179217607430, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
+      propertyPath: far clip plane
+      value: 130
+      objectReference: {fileID: 0}
     - target: {fileID: 4863879179358169909, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
       propertyPath: ausdauerAnzeige
       value: 
