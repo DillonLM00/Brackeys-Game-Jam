@@ -451,6 +451,22 @@ PrefabInstance:
       propertyPath: flashLight
       value: 
       objectReference: {fileID: 1457327699}
+    - target: {fileID: 478986580494447990, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 665165775721097687, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 665165775721097687, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 665165775721097687, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 665165776000457673, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: flashlight
       value: 
@@ -474,6 +490,26 @@ PrefabInstance:
     - target: {fileID: 1234660458905332445, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 193
+      objectReference: {fileID: 0}
+    - target: {fileID: 1496860917041361740, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551489223831209201, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: numberDisplay
+      value: 
+      objectReference: {fileID: 2045784467}
+    - target: {fileID: 1551489223831209201, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: parentReference
+      value: 
+      objectReference: {fileID: 675225122}
+    - target: {fileID: 1930519823690914704, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3068906565934530509, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3170019746641915891, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: flashlight
@@ -595,6 +631,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3755783916079315314, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520541114225845286, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6828462851364559595, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 380
@@ -613,6 +657,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+--- !u!1 &675225122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6790236319656126512, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+  m_PrefabInstance: {fileID: 475569732}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -852,6 +901,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2045784467 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8462364951345206494, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+  m_PrefabInstance: {fileID: 475569732}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4863879178531255925
 PrefabInstance:
   m_ObjectHideFlags: 0
