@@ -1088,6 +1088,7 @@ GameObject:
   - component: {fileID: 4863879179358169909}
   - component: {fileID: 4863879179358169908}
   - component: {fileID: 4863879179358169911}
+  - component: {fileID: 8725837981149294463}
   m_Layer: 0
   m_Name: Player Object
   m_TagString: Untagged
@@ -1133,6 +1134,7 @@ MonoBehaviour:
   ausdauerAnzeige: {fileID: 0}
   fovChangeStrength: 10
   fovChangeDuration: 2
+  lastCheckpoint: {fileID: 0}
   flashlightLight: {fileID: 6288769739689540963}
   flashlightSlowDown: 0.65
   playerAnimController: {fileID: 4863879177605302078}
@@ -1168,6 +1170,20 @@ MonoBehaviour:
   bobFrequencyMultiplier: 4
   speedImpactFreq: 0.15
   speedImpactStrength: 0.2
+--- !u!114 &8725837981149294463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4863879179358169931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e25a5af9f0f0cb469b951656f961458, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashlight: {fileID: 3630871535045473578}
+  lighter: {fileID: 1443659936141369229}
 --- !u!1 &6288769739689540963
 GameObject:
   m_ObjectHideFlags: 0
