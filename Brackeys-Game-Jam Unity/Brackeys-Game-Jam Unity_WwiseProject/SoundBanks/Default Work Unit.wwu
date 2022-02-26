@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{45049D1E-DE7E-45BC-AA05-6C220C139129}" SchemaVersion="103">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{45049D1E-DE7E-45BC-AA05-6C220C139129}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{45049D1E-DE7E-45BC-AA05-6C220C139129}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="main_game" ID="{9885008D-E4DC-4E63-B2F3-7B4451E7DDF9}">
+					<ObjectInclusionList>
+						<ObjectRef Name="zippo_close" ID="{793C65FD-777D-41C3-BD78-337A8CD86DE3}" WorkUnitID="{F10EF3AC-D02C-4598-9833-F56992BD8178}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="zippo_open" ID="{E1D7FCEB-2AD2-41F2-A040-CED355124002}" WorkUnitID="{F10EF3AC-D02C-4598-9833-F56992BD8178}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="zippo_on" ID="{4A68E346-F7EC-42FA-B914-D16645B0659D}" WorkUnitID="{F10EF3AC-D02C-4598-9833-F56992BD8178}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="change_battery" ID="{271F8FDE-20F4-45CE-9474-8BE02C727618}" WorkUnitID="{F10EF3AC-D02C-4598-9833-F56992BD8178}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="pickup_battery" ID="{E8BFCEA8-094C-4709-A985-6A9EF1007B5B}" WorkUnitID="{F10EF3AC-D02C-4598-9833-F56992BD8178}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="flashlight_on" ID="{92FB8374-1B1B-4745-B48B-9D5504973B98}" WorkUnitID="{F10EF3AC-D02C-4598-9833-F56992BD8178}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="spider_step" ID="{32096FCD-8DD4-480F-80D2-975CD9BA6B23}" WorkUnitID="{F10EF3AC-D02C-4598-9833-F56992BD8178}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="trash_step" ID="{6F5D83EA-BC42-4B7F-BA35-BF8C81674D5A}" WorkUnitID="{F10EF3AC-D02C-4598-9833-F56992BD8178}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="flashlight_off" ID="{9CBF0C7B-EB9A-4E63-8012-28D6A75584F7}" WorkUnitID="{F10EF3AC-D02C-4598-9833-F56992BD8178}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

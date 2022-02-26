@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\ronny\Documents\GitHub\Brackeys-Game-Jam\Brackeys-Game-Jam Unity\Brackeys-Game-Jam Unity_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\ronny\Documents\GitHub\Brackeys-Game-Jam\Brackeys-Game-Jam Unity\Brackeys-Game-Jam Unity_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\ronny\Documents\GitHub\Brackeys-Game-Jam\Brackeys-Game-Jam Unity\Brackeys-Game-Jam Unity_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\ronny\Documents\GitHub\Brackeys-Game-Jam\Brackeys-Game-Jam Unity\Brackeys-Game-Jam Unity_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="951883595" Language="SFX" Hash="3842782219">
+			<ObjectPath>\SoundBanks\Default Work Unit\main_game</ObjectPath>
+			<ShortName>main_game</ShortName>
+			<Path>main_game.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3020458995" Name="change_battery" ObjectPath="\Events\Default Work Unit\change_battery" DurationType="OneShot" DurationMin="2.350247" DurationMax="3.521392">
+					<IncludedMemoryFiles>
+						<File Id="314421323" Language="SFX">
+							<ShortName>batteriewechsel.wav</ShortName>
+							<Path>SFX\batteriewechsel_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1126494853" Name="flashlight_off" ObjectPath="\Events\Default Work Unit\flashlight_off" DurationType="OneShot" DurationMin="0.632396" DurationMax="0.947523">
+					<IncludedMemoryFiles>
+						<File Id="44374158" Language="SFX">
+							<ShortName>lampe-aus.wav</ShortName>
+							<Path>SFX\lampe-aus_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2033671033" Name="flashlight_on" ObjectPath="\Events\Default Work Unit\flashlight_on" DurationType="OneShot" DurationMin="0.896681" DurationMax="1.343503">
+					<IncludedMemoryFiles>
+						<File Id="1039556390" Language="SFX">
+							<ShortName>lampe-an.wav</ShortName>
+							<Path>SFX\lampe-an_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2557524463" Name="pickup_battery" ObjectPath="\Events\Default Work Unit\pickup_battery" DurationType="OneShot" DurationMin="0.736222" DurationMax="0.982738">
+					<IncludedMemoryFiles>
+						<File Id="355589388" Language="SFX">
+							<ShortName>pickup-battery.wav</ShortName>
+							<Path>SFX\pickup-battery_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3015918127" Name="spider_step" ObjectPath="\Events\Default Work Unit\spider_step" DurationType="OneShot" DurationMin="0.613518" DurationMax="1.216224">
+					<IncludedMemoryFiles>
+						<File Id="95070088" Language="SFX">
+							<ShortName>spinne-step-2.wav</ShortName>
+							<Path>SFX\spinne-step-2_10C4C929.wem</Path>
+						</File>
+						<File Id="450991866" Language="SFX">
+							<ShortName>spinne-step-1.wav</ShortName>
+							<Path>SFX\spinne-step-1_10C4C929.wem</Path>
+						</File>
+						<File Id="823815447" Language="SFX">
+							<ShortName>spinne-step-3.wav</ShortName>
+							<Path>SFX\spinne-step-3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1593284794" Name="trash_step" ObjectPath="\Events\Default Work Unit\trash_step" DurationType="OneShot" DurationMin="1.340301" DurationMax="2.163747">
+					<IncludedMemoryFiles>
+						<File Id="445535504" Language="SFX">
+							<ShortName>trash-step-1.wav</ShortName>
+							<Path>SFX\trash-step-1_10C4C929.wem</Path>
+						</File>
+						<File Id="557657526" Language="SFX">
+							<ShortName>trash-step-3.wav</ShortName>
+							<Path>SFX\trash-step-3_10C4C929.wem</Path>
+						</File>
+						<File Id="707083207" Language="SFX">
+							<ShortName>trash-step-2.wav</ShortName>
+							<Path>SFX\trash-step-2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2168122260" Name="zippo_close" ObjectPath="\Events\Default Work Unit\zippo_close" DurationType="OneShot" DurationMin="0.575763" DurationMax="0.725416">
+					<IncludedMemoryFiles>
+						<File Id="635981081" Language="SFX">
+							<ShortName>klappe-zu.wav</ShortName>
+							<Path>SFX\klappe-zu_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3894384011" Name="zippo_on" ObjectPath="\Events\Default Work Unit\zippo_on" DurationType="OneShot" DurationMin="0.556886" DurationMax="0.701632">
+					<IncludedMemoryFiles>
+						<File Id="1054708291" Language="SFX">
+							<ShortName>klappe-auf.wav</ShortName>
+							<Path>SFX\klappe-auf_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3865570096" Name="zippo_open" ObjectPath="\Events\Default Work Unit\zippo_open" DurationType="OneShot" DurationMin="0.415305" DurationMax="0.554365">
+					<IncludedMemoryFiles>
+						<File Id="308231462" Language="SFX">
+							<ShortName>zuenden.wav</ShortName>
+							<Path>SFX\zuenden_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

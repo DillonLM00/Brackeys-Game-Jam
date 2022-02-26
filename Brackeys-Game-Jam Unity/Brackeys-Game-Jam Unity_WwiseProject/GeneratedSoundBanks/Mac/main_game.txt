@@ -1,0 +1,26 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1126494853	flashlight_off			\Default Work Unit\flashlight_off	
+	1593284794	trash_step			\Default Work Unit\trash_step	
+	2033671033	flashlight_on			\Default Work Unit\flashlight_on	
+	2168122260	zippo_close			\Default Work Unit\zippo_close	
+	2557524463	pickup_battery			\Default Work Unit\pickup_battery	
+	3015918127	spider_step			\Default Work Unit\spider_step	
+	3020458995	change_battery			\Default Work Unit\change_battery	
+	3865570096	zippo_open			\Default Work Unit\zippo_open	
+	3894384011	zippo_on			\Default Work Unit\zippo_on	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	44374158	lampe-aus	C:\Users\ronny\Documents\GitHub\Brackeys-Game-Jam\Brackeys-Game-Jam Unity\Brackeys-Game-Jam Unity_WwiseProject\.cache\Mac\SFX\lampe-aus_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Taschenlampe\lampe-aus		118252
+	95070088	spinne-step-2	C:\Users\ronny\Documents\GitHub\Brackeys-Game-Jam\Brackeys-Game-Jam Unity\Brackeys-Game-Jam Unity_WwiseProject\.cache\Mac\SFX\spinne-step-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\spider step\Spider\spinne-step-2		124864
+	308231462	zuenden	C:\Users\ronny\Documents\GitHub\Brackeys-Game-Jam\Brackeys-Game-Jam Unity\Brackeys-Game-Jam Unity_WwiseProject\.cache\Mac\SFX\zuenden_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Zippo\zuenden		77680
+	314421323	batteriewechsel	C:\Users\ronny\Documents\GitHub\Brackeys-Game-Jam\Brackeys-Game-Jam Unity\Brackeys-Game-Jam Unity_WwiseProject\.cache\Mac\SFX\batteriewechsel_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Taschenlampe\batteriewechsel		439300
+	355589388	pickup-battery	C:\Users\ronny\Documents\GitHub\Brackeys-Game-Jam\Brackeys-Game-Jam Unity\Brackeys-Game-Jam Unity_WwiseProject\.cache\Mac\SFX\pickup-battery_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Taschenlampe\pickup-battery		137656
+	445535504	trash-step-1	C:\Users\ronny\Documents\GitHub\Brackeys-Game-Jam\Brackeys-Game-Jam Unity\Brackeys-Game-Jam Unity_WwiseProject\.cache\Mac\SFX\trash-step-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\trash step\trash step\trash-step-1		264664
+	450991866	spinne-step-1	C:\Users\ronny\Documents\GitHub\Brackeys-Game-Jam\Brackeys-Game-Jam Unity\Brackeys-Game-Jam Unity_WwiseProject\.cache\Mac\SFX\spinne-step-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\spider step\Spider\spinne-step-1		165184
+	557657526	trash-step-3	C:\Users\ronny\Documents\GitHub\Brackeys-Game-Jam\Brackeys-Game-Jam Unity\Brackeys-Game-Jam Unity_WwiseProject\.cache\Mac\SFX\trash-step-3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\trash step\trash step\trash-step-3		269956
+	635981081	klappe-zu	C:\Users\ronny\Documents\GitHub\Brackeys-Game-Jam\Brackeys-Game-Jam Unity\Brackeys-Game-Jam Unity_WwiseProject\.cache\Mac\SFX\klappe-zu_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Zippo\klappe-zu		107668
+	707083207	trash-step-2	C:\Users\ronny\Documents\GitHub\Brackeys-Game-Jam\Brackeys-Game-Jam Unity\Brackeys-Game-Jam Unity_WwiseProject\.cache\Mac\SFX\trash-step-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\trash step\trash step\trash-step-2		250552
+	823815447	spinne-step-3	C:\Users\ronny\Documents\GitHub\Brackeys-Game-Jam\Brackeys-Game-Jam Unity\Brackeys-Game-Jam Unity_WwiseProject\.cache\Mac\SFX\spinne-step-3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\spider step\Spider\spinne-step-3		140224
+	1039556390	lampe-an	C:\Users\ronny\Documents\GitHub\Brackeys-Game-Jam\Brackeys-Game-Jam Unity\Brackeys-Game-Jam Unity_WwiseProject\.cache\Mac\SFX\lampe-an_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Taschenlampe\lampe-an		167644
+	1054708291	klappe-auf	C:\Users\ronny\Documents\GitHub\Brackeys-Game-Jam\Brackeys-Game-Jam Unity\Brackeys-Game-Jam Unity_WwiseProject\.cache\Mac\SFX\klappe-auf_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Zippo\klappe-auf		104140
+
