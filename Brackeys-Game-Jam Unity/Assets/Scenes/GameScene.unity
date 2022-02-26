@@ -447,6 +447,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 457089619757425610, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: flashLight
+      value: 
+      objectReference: {fileID: 1457327699}
     - target: {fileID: 665165776000457673, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: flashlight
       value: 
@@ -454,6 +458,22 @@ PrefabInstance:
     - target: {fileID: 665165776000457678, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1234660458905332445, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 1234660458905332445, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 1234660458905332445, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 340
+      objectReference: {fileID: 0}
+    - target: {fileID: 1234660458905332445, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3170019746641915891, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: flashlight
@@ -574,6 +594,14 @@ PrefabInstance:
     - target: {fileID: 3170019748476323267, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7418108906526224051, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8145691370889944292, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_Color.a
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
@@ -843,6 +871,10 @@ PrefabInstance:
       propertyPath: lighterLight
       value: 
       objectReference: {fileID: 865060991}
+    - target: {fileID: 1443659936141369229, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3630871535045473578, guid: baa80ca27630ba44c845137d794b6f37, type: 3}
       propertyPath: m_IsActive
       value: 1

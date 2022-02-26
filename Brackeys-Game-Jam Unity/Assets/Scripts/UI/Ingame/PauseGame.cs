@@ -5,6 +5,7 @@ using UnityEngine;
 public class PauseGame : MonoBehaviour
 {
     public GameObject pausePanel;
+    public GameObject ingameUI;
 
     private void Start()
     {
@@ -24,10 +25,12 @@ public class PauseGame : MonoBehaviour
         if (pausePanel.activeSelf)     // un- /pauses the game based on pauseMenuBackground.activeSelf, if (Time.timeScale == 1.0) can cause errors based on float comparisons
         {
             Time.timeScale = 0f;
+            ingameUI.SetActive(false);
         }
         else
         {
             Time.timeScale = 1.0f;
+            ingameUI.SetActive(true);
         }
     }
 }

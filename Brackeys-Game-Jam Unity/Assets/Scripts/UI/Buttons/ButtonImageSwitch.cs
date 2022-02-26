@@ -11,18 +11,19 @@ public class ButtonImageSwitch : MonoBehaviour
 
     private float timeSinceChange = 0f;     // seconds since the last change
 
+
     private void Start()
     {
         //originButton = gameObject.GetComponent<Button>().image;
         originButton = gameObject.GetComponent<Image>();
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
 
         timeSinceChange += Time.deltaTime;
 
-        if (timeSinceChange>= 0.25)     // image switches 4 times a second
+        if (timeSinceChange>= 0.5)     // image switches 4 times a second
         {
             originButton.sprite = spriteChanges[arrayPosition];
             arrayPosition = (arrayPosition + 1) % spriteChanges.Length;

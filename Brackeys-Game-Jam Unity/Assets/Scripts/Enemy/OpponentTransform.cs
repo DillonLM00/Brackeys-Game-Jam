@@ -10,8 +10,8 @@ public class OpponentTransform : MonoBehaviour
     private GameObject child;
     private Transform childPos;
 
-    private float transformFormsDelay = 1f;         // time to change from Evil to cute;
-    private float CuteToEvilTimeMultiplier = 0.5f;  // how long it takes to change back to evil: 0.5 -> twice the time
+    private float transformFormsDelay = 0.25f;         // time to change from Evil to cute;
+    private float CuteToEvilTimeMultiplier = 0.125f;  // how long it takes to change back to evil: 0.5 -> twice the time
 
     private void Start()
     {
