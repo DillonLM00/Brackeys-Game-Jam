@@ -32367,6 +32367,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 457089619757425610, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: flashLight
+      value: 
+      objectReference: {fileID: 1569500697}
     - target: {fileID: 665165776000457666, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: m_Name
       value: IngameUICanvas
@@ -51906,7 +51910,19 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2069612406}
     - target: {fileID: 1842122042725238666, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
+      propertyPath: lighter
+      value: 
+      objectReference: {fileID: 2079372737}
+    - target: {fileID: 1842122042725238666, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1842122042725238666, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
+      propertyPath: flashlight
+      value: 
+      objectReference: {fileID: 1569500697}
+    - target: {fileID: 1900524374175459988, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3773323932980239617, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
@@ -51963,6 +51979,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
+--- !u!1 &2079372737 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1900524374175459988, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
+  m_PrefabInstance: {fileID: 2079372736}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2081197431 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7852980653937288306, guid: e426d38142128be47a2ec3829084f6c3, type: 3}
