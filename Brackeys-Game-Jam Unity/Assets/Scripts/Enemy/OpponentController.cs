@@ -19,7 +19,7 @@ public class OpponentController : MonoBehaviour
     public float earRange = 30f;
     public float noiseTolerance = 5f;
     public float noiseMultiplier = 5f;
-    public float lightAttraction = 5f;
+    public float lightAttraction = 0.2f;
     [Range(0, 100)]
     public int seeFoolishness = 5;
     [Range(0, 100)]
