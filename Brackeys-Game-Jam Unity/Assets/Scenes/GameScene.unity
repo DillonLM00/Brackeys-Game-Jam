@@ -511,6 +511,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3164687130869085032, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: flashLight
+      value: 
+      objectReference: {fileID: 1457327699}
     - target: {fileID: 3170019746641915891, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: flashlight
       value: 
@@ -651,11 +655,36 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7861929889828676324, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 358.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7861929889828676324, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 133.7
+      objectReference: {fileID: 0}
     - target: {fileID: 8145691370889944292, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8462364951345206494, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.6509434
+      objectReference: {fileID: 0}
+    - target: {fileID: 8462364951345206494, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.6509434
+      objectReference: {fileID: 0}
+    - target: {fileID: 8462364951345206494, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.6509434
+      objectReference: {fileID: 0}
+    - target: {fileID: 8462364951345206494, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4289111718
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1551489223831209201, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
 --- !u!1 &675225122 stripped
 GameObject:

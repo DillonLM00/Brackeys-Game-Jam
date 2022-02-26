@@ -5,20 +5,24 @@ using TMPro;
 
 public class BatteryNumberDisplay : MonoBehaviour
 {
-    public GameObject parentReference;
+    public GameObject flashLight;
     private Flashlight flashlightInformation;
-    public TextMeshProUGUI numberDisplay;
+
+    public TMPro.TextMeshProUGUI numberDisplay;
+
 
     private void Start()
     {
-        flashlightInformation = parentReference.GetComponent<BatteryDisplay>().flashLight.GetComponent<Flashlight>();
-        Debug.Log(flashlightInformation.exchangeBatteries);
-        numberDisplay.text = flashlightInformation.exchangeBatteries.ToString() + "yyyyyyyyyyyyyyyyyyyyy";
+        if (flashLight == null)
+        {
+            Debug.Log("Pls Link a Flashlight on the IngameUICanvas");
+            return;
+        }
+        flashlightInformation = flashLight.GetComponent<Flashlight>();
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
-        //Debug.Log(numberDisplay.text);
-        //numberDisplay.SetText(flashlightInformation.exchangeBatteries.ToString() + "x");
+        numberDisplay.text = flashlightInformation.exchangeBatteries.ToString() + "x";
     }
 }
