@@ -37,7 +37,7 @@ public class FirstPersonController : MonoBehaviour
     private float fovChangeTime = 0f;
 
     //Respawn
-    private Transform lastCheckpoint;
+    public Transform lastCheckpoint;
 
     //Flashlight
     public GameObject flashlightLight;
