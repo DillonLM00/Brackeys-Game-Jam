@@ -55,6 +55,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bush2Dead
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 301eeab4ef9a70d40b89ec9e0b5b31d6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 301eeab4ef9a70d40b89ec9e0b5b31d6, type: 3}
 --- !u!1 &4503638183468038387 stripped

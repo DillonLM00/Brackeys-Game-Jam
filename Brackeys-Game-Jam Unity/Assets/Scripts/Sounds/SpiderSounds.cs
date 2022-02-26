@@ -6,6 +6,6 @@ public class SpiderSounds : MonoBehaviour
 {
     public void SpiderRun()
     {
-        AkSoundEngine.PostEvent("SpiderRun", gameObject);
+        AkSoundEngine.PostEvent("spider_step", gameObject);
     }
 }

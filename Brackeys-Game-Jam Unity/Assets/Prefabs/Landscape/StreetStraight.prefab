@@ -51,9 +51,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -3876391745149741577, guid: a6eaf2d659454254caf340672d9741aa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a6eaf2d659454254caf340672d9741aa, type: 3}
       propertyPath: m_Name
       value: StreetStraight
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a6eaf2d659454254caf340672d9741aa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5813791460566392324, guid: a6eaf2d659454254caf340672d9741aa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6eaf2d659454254caf340672d9741aa, type: 3}

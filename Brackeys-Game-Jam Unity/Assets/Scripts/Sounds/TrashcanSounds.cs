@@ -6,6 +6,6 @@ public class TrashcanSounds : MonoBehaviour
 {
     public void TrashcanRun()
     {
-        AkSoundEngine.PostEvent("TrashcanRun", gameObject);
+        AkSoundEngine.PostEvent("trash_step", gameObject);
     }
 }

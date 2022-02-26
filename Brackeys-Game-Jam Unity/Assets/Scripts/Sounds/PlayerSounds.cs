@@ -8,7 +8,7 @@ public class PlayerSounds : MonoBehaviour
 
     public void FlashlightOnOffSound()
     {
-        AkSoundEngine.PostEvent("FlashlightOnOff", gameObject);
+        AkSoundEngine.PostEvent("flashlight_on", gameObject);
     }
 
     public void PlayerStep()
@@ -26,8 +26,18 @@ public class PlayerSounds : MonoBehaviour
         }
     }
 
+    public void BatteryPickUp()
+    {
+        AkSoundEngine.PostEvent("pickup_battery", gameObject);
+    }
+
     public void BatterySwap()
     {
-        AkSoundEngine.PostEvent("BatterySwap", gameObject);
+        AkSoundEngine.PostEvent("change_battery", gameObject);
+    }
+
+    public void ZipperOn()
+    {
+        AkSoundEngine.PostEvent("zippo_on", gameObject);
     }
 }
