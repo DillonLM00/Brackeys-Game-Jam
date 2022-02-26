@@ -15,7 +15,7 @@ public class OpponentTransform : MonoBehaviour
 
     private void Start()
     {
-        child = transform.GetChild(0).gameObject;
+        child = transform.GetChild(1).gameObject;
     }
 
     private void Update()
