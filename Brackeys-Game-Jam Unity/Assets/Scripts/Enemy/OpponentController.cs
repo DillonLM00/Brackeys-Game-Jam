@@ -36,9 +36,9 @@ public class OpponentController : MonoBehaviour
     private bool iRemember = false;
 
     private bool patrouille = true;
-    public Transform patrouillePoint;
-    private Vector3 patrouilleStartPos;
-    private bool patrouilleCycle = false;
+    private Transform patrouillePoint;
+    private Transform patrouilleStartPos;
+    private bool patrouilleCycle = true;
     public float patrouilleWaitTime = 2f;
     private float notMoving = 0f;
 
@@ -52,10 +52,22 @@ public class OpponentController : MonoBehaviour
         animController = GetComponentInChildren<Animator>();
     }
 
-    void Start()
+    private void Start()
     {
         predictedPlayerPos = transform.position;
-        patrouilleStartPos = transform.position;
+        patrouilleStartPos = transform.parent.GetChild(0);
+
+        patrouillePoint = transform.parent.GetChild(0).GetChild(0);
+    }
+
+    public bool getPatrouilleCycle()
+    {
+        return patrouilleCycle;
+    }
+
+    public void setPatrouilleCycle(bool pC)
+    {
+        patrouilleCycle = pC;
     }
 
     private bool foolish(int foolishness)
@@ -81,7 +93,7 @@ public class OpponentController : MonoBehaviour
         return false;
     }
 
-    private bool noticingPlayer() //wahrscheinlichkeit, dass opponent den player überhört oder übersieht
+    private bool noticingPlayer()
     {
         //how much noise does the player make based on distance and velocity
         float distance = Vector3.Distance(transform.position, player.transform.position);
@@ -144,8 +156,7 @@ public class OpponentController : MonoBehaviour
     {
         if (!agent.hasPath)
         {
-            Debug.Log("not moving");
-            animController.SetInteger("WalkInt", 0); //überschreibt WalkInt, 1
+            animController.SetInteger("WalkInt", 0);
             notMoving += Time.deltaTime;
 
             if (notMoving >= patrouilleWaitTime)
@@ -157,6 +168,7 @@ public class OpponentController : MonoBehaviour
         else
         {
             notMoving = 0f;
+            animController.SetInteger("WalkInt", 1);
         }
 
         DebugVision();
@@ -203,10 +215,10 @@ public class OpponentController : MonoBehaviour
         {
             agent.speed = walkingSpeed;
             animController.SetInteger("WalkInt", 1);
-
+            Debug.Log(patrouilleCycle);
             if (patrouilleCycle == true)
             {
-                agent.destination = patrouilleStartPos;
+                agent.destination = patrouilleStartPos.position;
                 patrouilleCycle = false;
             }
             else
