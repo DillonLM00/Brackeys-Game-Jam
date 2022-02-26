@@ -17,6 +17,11 @@ public class Flashlight : MonoBehaviour
     {
         flashlightLight.gameObject.SetActive(flashlightActive);
 
+        if(Time.timeScale == 0)         // cant use flashlight, if the game is paused
+        {
+            return;
+        }
+
         if (batteryCharge <= 0) // only continues code if the battery has charges left
         {
             flashlightActive = false;

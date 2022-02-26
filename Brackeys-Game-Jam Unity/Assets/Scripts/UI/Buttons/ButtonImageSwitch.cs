@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ButtonImageSwitch : MonoBehaviour
 {
-    private Image originButton;
+    private Image originImage;
     public Sprite[] spriteChanges;
     private int arrayPosition = 0;
 
@@ -15,17 +15,18 @@ public class ButtonImageSwitch : MonoBehaviour
     private void Start()
     {
         //originButton = gameObject.GetComponent<Button>().image;
-        originButton = gameObject.GetComponent<Image>();
+        originImage = gameObject.GetComponent<Image>();
+        originImage.sprite = spriteChanges[spriteChanges.Length - 1];
     }
 
     private void Update()
     {
 
-        timeSinceChange += Time.deltaTime;
+        timeSinceChange += Time.unscaledDeltaTime;
 
-        if (timeSinceChange>= 0.5)     // image switches 4 times a second
+        if (timeSinceChange>= 0.25)     // image switches 4 times a second
         {
-            originButton.sprite = spriteChanges[arrayPosition];
+            originImage.sprite = spriteChanges[arrayPosition];
             arrayPosition = (arrayPosition + 1) % spriteChanges.Length;
             timeSinceChange = 0f;
         }
