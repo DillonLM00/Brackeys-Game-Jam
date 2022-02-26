@@ -10,7 +10,7 @@
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
   <WwiseInstallationPathMac />
   <WwiseInstallationPathWindows>E:\Wwise</WwiseInstallationPathWindows>
-  <WwiseProjectPath>../Brackeys-Game-Jam Unity_WwiseProject/Brackeys-Game-Jam Unity_WwiseProject.wproj</WwiseProjectPath>
+  <WwiseProjectPath>../../Brackeys-Game-Jam Unity/Brackeys-Game-Jam Unity_WwiseProject/Brackeys-Game-Jam Unity_WwiseProject.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
   <WaapiPort>8080</WaapiPort>
   <WaapiIP>127.0.0.1</WaapiIP>
