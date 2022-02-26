@@ -15,7 +15,7 @@ public class FirstPersonController : MonoBehaviour
     private bool runRecovery = false;
 
     //Mouse-Look
-    public float winkelProSec = 1000f;
+    public float mouseLookSensivity = 1000f;
     private float nickWinkel = 0f;
     private float gierWinkel = 0f;
     private float minNickWinkel = -20f, maxNickWinkel = 40f;
@@ -37,7 +37,7 @@ public class FirstPersonController : MonoBehaviour
     private float fovChangeTime = 0f;
 
     //Respawn
-    public Transform lastCheckpoint;
+    private Transform lastCheckpoint;
 
     //Flashlight
     public GameObject flashlightLight;
@@ -57,6 +57,12 @@ public class FirstPersonController : MonoBehaviour
     {
         transform.position = lastCheckpoint.position;
         transform.rotation = lastCheckpoint.rotation;
+    }
+
+    public void getMouseLookSensivity(Slider slider)
+    {
+        mouseLookSensivity = slider.value;
+        MouseLookSensivity.mouseLookSensivity = mouseLookSensivity;
     }
 
     public bool isMoving()
@@ -81,8 +87,8 @@ public class FirstPersonController : MonoBehaviour
 
     private void MouseLook()
     {
-        float horizontal = Input.GetAxis("Mouse X") * Time.deltaTime * winkelProSec;
-        float vertical = Input.GetAxis("Mouse Y") * Time.deltaTime * winkelProSec;
+        float horizontal = Input.GetAxis("Mouse X") * Time.deltaTime * mouseLookSensivity;
+        float vertical = Input.GetAxis("Mouse Y") * Time.deltaTime * mouseLookSensivity;
 
         nickWinkel = Mathf.Clamp(nickWinkel - vertical, minNickWinkel, maxNickWinkel);
         gierWinkel += horizontal;
@@ -109,6 +115,8 @@ public class FirstPersonController : MonoBehaviour
 
         fovAtStart = camera.fieldOfView;
         currentFOV = fovAtStart;
+
+        mouseLookSensivity = MouseLookSensivity.mouseLookSensivity;
     }
 
     private void Update()
