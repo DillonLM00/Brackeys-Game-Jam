@@ -4,14 +4,14 @@ ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable:
   - first:
-      74: 1355400616678232204
-    second: Armature Lighter|01_Equip_Lighter
+      74: 4318238505152850286
+    second: Armature|01_Equip_Lighter
   - first:
-      74: 2322881681862119217
-    second: Armature Lighter|02_Idle_Lighter
+      74: 4745338633056505539
+    second: Armature|02_Idle_Lighter
   - first:
-      74: 8630956777553200670
-    second: Armature Lighter|03_Take_off_Lighter
+      74: 4830686105854759005
+    second: Armature|03_Take_Off_Lighter
   externalObjects: {}
   materials:
     materialImportMode: 2
