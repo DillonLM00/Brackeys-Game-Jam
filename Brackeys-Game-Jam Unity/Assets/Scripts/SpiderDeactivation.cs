@@ -14,7 +14,7 @@ public class SpiderDeactivation : MonoBehaviour
         }
     }
 
-    private void swapToReplacer()
+    public void swapToReplacer()
     {
         SpiderPartDeactivation spd;
 
@@ -28,7 +28,7 @@ public class SpiderDeactivation : MonoBehaviour
         }
     }
 
-    private void swapToNormal()
+    public void swapToNormal()
     {
         SpiderPartDeactivation spd;
 
