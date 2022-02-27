@@ -83,7 +83,7 @@ public class OpponentController : MonoBehaviour
     private bool playerOnSight()
     {
         RaycastHit hit;
-        if(Physics.Raycast(transform.position + Vector3.up, player.transform.position - transform.position, out hit, visionRange, ~ignoreTheseColliders)) //ray in 1meter heigt
+        if(Physics.Raycast(transform.position + Vector3.up*0.5f, player.transform.position - transform.position, out hit, visionRange, ~ignoreTheseColliders)) //ray in 1meter heigt
         {
             if (hit.transform.gameObject == player)
             {
