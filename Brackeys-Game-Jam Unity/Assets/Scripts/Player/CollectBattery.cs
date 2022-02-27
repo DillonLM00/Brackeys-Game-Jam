@@ -14,6 +14,10 @@ public class CollectBattery : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
+        {
             flashlight.exchangeBatteries++;
+            Destroy(this.gameObject);
+
+        }       
     }
 }
