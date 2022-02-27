@@ -278,8 +278,13 @@ MonoBehaviour:
         guid: cd6f0932d48d0f4880d2975cd9ba6b23
       Path: Events\Default Work Unit\spider_step
       maxAttenuation: 0
+<<<<<<< Updated upstream
       maxDuration: 0.938287
       minDuration: 0.440175
+=======
+      maxDuration: 2.687006
+      minDuration: 1.368618
+>>>>>>> Stashed changes
     - name: trash_step
       guid: ea835d6f42bc7f4bba35bf8c81674d5a
       id: 1593284794

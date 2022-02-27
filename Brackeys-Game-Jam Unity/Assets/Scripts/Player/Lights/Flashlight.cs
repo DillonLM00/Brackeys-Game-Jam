@@ -30,6 +30,7 @@ public class Flashlight : MonoBehaviour
             return;
         }
 
+
         if (!Input.GetMouseButton(0))   // only continues code if the left mouse button is down
         {
             flashlightActive = false;

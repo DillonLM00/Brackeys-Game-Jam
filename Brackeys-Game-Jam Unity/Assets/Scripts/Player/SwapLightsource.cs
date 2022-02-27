@@ -25,16 +25,16 @@ public class SwapLightsource : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Q))
         {
-            flashlight.SetActive(!flashlight.activeSelf);
-            lighter.SetActive(!lighter.activeSelf);
+            //flashlight.SetActive(!flashlight.activeSelf);
+            //lighter.SetActive(!lighter.activeSelf);
 
             if (flashlight.activeSelf)
             {
-                playerAnimator.runtimeAnimatorController = flashlightAnimator;
+                //playerAnimator.runtimeAnimatorController = flashlightAnimator;
             }
             else
             {
-                playerAnimator.runtimeAnimatorController = lighterAnimator;
+                //playerAnimator.runtimeAnimatorController = lighterAnimator;
             }
         }
     }
