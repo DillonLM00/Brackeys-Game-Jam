@@ -183,7 +183,10 @@ public class OpponentController : MonoBehaviour
             patrouille = false;
 
             if (Vector3.Distance(transform.position, player.transform.position) <= catchRange) //LoseCondition
-                StartCoroutine(loseScreen.Lose());
+            {
+                loseScreen.lost();
+                Debug.Log("Lost");
+            }
 
 
 
