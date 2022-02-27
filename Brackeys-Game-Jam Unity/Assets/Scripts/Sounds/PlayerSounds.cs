@@ -13,15 +13,15 @@ public class PlayerSounds : MonoBehaviour
 
     public void PlayerStep()
     {
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down) * 3, out hit))
+        if (Physics.Raycast(transform.position, -Vector3.up, out hit))
         {
             if (hit.transform.tag == "Grass")
             {
-                AkSoundEngine.PostEvent("PlayerStepGrass", gameObject);
+                AkSoundEngine.PostEvent("player_step_grass", gameObject);
             }
             else if (hit.transform.tag == "Asphalt")
             {
-                AkSoundEngine.PostEvent("PlayerStepAsphalt", gameObject);
+                AkSoundEngine.PostEvent("player_step_asphalt", gameObject);
             }
         }
     }

@@ -52,6 +52,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3876391745149741577, guid: a6eaf2d659454254caf340672d9741aa, type: 3}
+      propertyPath: m_TagString
+      value: Grass
+      objectReference: {fileID: 0}
+    - target: {fileID: -3876391745149741577, guid: a6eaf2d659454254caf340672d9741aa, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 9
       objectReference: {fileID: 0}
@@ -62,6 +66,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a6eaf2d659454254caf340672d9741aa, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5813791460566392324, guid: a6eaf2d659454254caf340672d9741aa, type: 3}
+      propertyPath: m_TagString
+      value: Asphalt
       objectReference: {fileID: 0}
     - target: {fileID: 5813791460566392324, guid: a6eaf2d659454254caf340672d9741aa, type: 3}
       propertyPath: m_StaticEditorFlags
