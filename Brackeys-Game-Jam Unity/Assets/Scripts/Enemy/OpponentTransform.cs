@@ -34,14 +34,14 @@ public class OpponentTransform : MonoBehaviour
         childPos = child.transform;
         Destroy(child);
         child = Instantiate(harmlessVersion, childPos.position, childPos.rotation, gameObject.transform);
-        if (SpiderInformation.spidersActivated)
-        {
-            spiderdeac.swapToNormal();
-        }
-        else
-        {
-            spiderdeac.swapToReplacer();
-        }
+        //if (SpiderInformation.spidersActivated)
+        //{
+        //    spiderdeac.swapToNormal();
+        //}
+        //else
+        //{
+        //    spiderdeac.swapToReplacer();
+        //}
         isEvil = false;
     }
 
@@ -52,21 +52,19 @@ public class OpponentTransform : MonoBehaviour
         Destroy(child);
         child = Instantiate(evilVersion, childPos.position, childPos.rotation, gameObject.transform);
         
-        if (SpiderInformation.spidersActivated)
-        {
-            spiderdeac.swapToNormal();
-        }
-        else
-        {
-            spiderdeac.swapToReplacer();
-        }
+        //if (SpiderInformation.spidersActivated)
+        //{
+        //    spiderdeac.swapToNormal();
+        //}
+        //else
+        //{
+        //    spiderdeac.swapToReplacer();
+        //}
         isEvil = true;
     }
 
     public void TransformIntoCuteOverTime()
     {
-        
-
             transformFormsDelay = 0f;           // caps the length of transformation, remove to increase time corresponding to light length
             if (isEvil)
             {

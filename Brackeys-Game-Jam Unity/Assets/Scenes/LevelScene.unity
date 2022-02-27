@@ -33806,7 +33806,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 196622378921763938, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 196622378921763938, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
@@ -33934,7 +33934,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1270504067542551022, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1270504067542551022, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
@@ -54428,7 +54428,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpinnenInformation
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7174100506148320792, guid: 06a39cf52c731fb409fd1ebeafc4f34e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 06a39cf52c731fb409fd1ebeafc4f34e, type: 3}
 --- !u!114 &2067808531 stripped
 MonoBehaviour:
