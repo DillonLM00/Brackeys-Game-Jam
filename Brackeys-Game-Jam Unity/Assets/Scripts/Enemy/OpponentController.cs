@@ -42,6 +42,9 @@ public class OpponentController : MonoBehaviour
     public float patrouilleWaitTime = 2f;
     private float notMoving = 0f;
 
+    public float catchRange = 3f;
+    private LoseScreen loseScreen;
+
     public LayerMask ignoreTheseColliders;
 
     private void Awake()
@@ -58,6 +61,8 @@ public class OpponentController : MonoBehaviour
         patrouilleStartPos = transform.parent.GetChild(0);
 
         patrouillePoint = transform.parent.GetChild(0).GetChild(0);
+
+        loseScreen = FindObjectOfType<LoseScreen>();
     }
 
     public bool getPatrouilleCycle()
@@ -176,6 +181,11 @@ public class OpponentController : MonoBehaviour
         if (playerOnSight())    //hunting behaviour
         {
             patrouille = false;
+
+            if (Vector3.Distance(transform.position, player.transform.position) <= catchRange) //LoseCondition
+                StartCoroutine(loseScreen.Lose());
+
+
 
             if (!predicting)
                 StartCoroutine(lastPos(player.transform.position));
