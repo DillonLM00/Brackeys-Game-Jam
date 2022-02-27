@@ -105,6 +105,61 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="bear_step" ID="{9C55CCF3-B98B-4A73-B2A7-0D3D2F5F19A9}">
+					<ChildrenList>
+						<Action Name="" ID="{DB4B13E9-ED17-4EDA-941B-D421D198A35F}" ShortID="946857077">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="bear_step" ID="{7DCF89B3-D249-4D50-B6FB-251EFD50C89E}" WorkUnitID="{5CF876E1-3AA4-4241-AD9A-84899252D5D1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="player_step_grass" ID="{2CD99290-BC15-46AB-98B1-D61943326E8C}">
+					<ChildrenList>
+						<Action Name="" ID="{2DEE9C57-2686-4978-B4A4-7D42FE57EF42}" ShortID="104345632">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player step grass" ID="{D433177E-FDAF-4677-822E-CD4CE85B796B}" WorkUnitID="{5CF876E1-3AA4-4241-AD9A-84899252D5D1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="player_step_asphalt" ID="{C1E171A8-36AD-427A-823A-D1005A96CA40}">
+					<ChildrenList>
+						<Action Name="" ID="{A5144C1C-8AF9-4B5B-9B6B-88AA41086B39}" ShortID="292057842">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="player step asphalt" ID="{B3B62CA0-D111-4B3D-93D4-B0F3F807A852}" WorkUnitID="{5CF876E1-3AA4-4241-AD9A-84899252D5D1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="music_calm" ID="{FE8D3390-C8FD-43AC-9306-443E6BB62251}">
+					<ChildrenList>
+						<Action Name="" ID="{373ED49C-73D4-4056-801B-D727D44D5730}" ShortID="802983118">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="calm" ID="{DED89B5F-642E-423E-B229-49E8E73E3E38}" WorkUnitID="{0E9241D2-74BE-406C-B62D-45E477BBA530}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="music_hunting" ID="{40E3E788-C2A9-46BD-BCE1-6B7B3A324682}">
+					<ChildrenList>
+						<Action Name="" ID="{0DBBDA6A-EA6B-45E5-ABFC-C06AD79C6561}" ShortID="954110663">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="hunting" ID="{33D2672F-E943-4D78-982C-15B52B028D8B}" WorkUnitID="{0E9241D2-74BE-406C-B62D-45E477BBA530}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

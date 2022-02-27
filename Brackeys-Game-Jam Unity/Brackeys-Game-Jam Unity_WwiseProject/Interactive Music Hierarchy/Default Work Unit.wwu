@@ -1,6 +1,446 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0E9241D2-74BE-406C-B62D-45E477BBA530}" SchemaVersion="103">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{0E9241D2-74BE-406C-B62D-45E477BBA530}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0E9241D2-74BE-406C-B62D-45E477BBA530}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="calm" ID="{2E4C08E1-733A-4921-8A21-52BA5A9CCB8E}" ShortID="631485318">
+					<ChildrenList>
+						<MusicPlaylistContainer Name="calm" ID="{DED89B5F-642E-423E-B229-49E8E73E3E38}" ShortID="222608407">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1DD17D32-EFCA-4DAF-BCCB-00612BE85D79}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3655B0B8-AB78-4F2D-ABB8-F58B5CC104F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Calm Theme Intro" ID="{8EA58A72-F830-46EF-A1E3-E3BE29A04526}" ShortID="339459083">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="90182.6984126984"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1DD17D32-EFCA-4DAF-BCCB-00612BE85D79}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3655B0B8-AB78-4F2D-ABB8-F58B5CC104F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Calm Theme Intro" ID="{BB7631A6-C52F-4493-8AE5-F0D0BFD9C259}" ShortID="500779057">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3655B0B8-AB78-4F2D-ABB8-F58B5CC104F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Calm Theme Intro" ID="{5CAE6CF8-13F6-4F46-9753-B26D6AE70A3A}">
+													<Language>SFX</Language>
+													<AudioFile>Calm Theme Intro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="390827778"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{FC329907-BFBA-4062-A3CA-BB1E68600746}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{E34D6AFB-2A66-440D-A2D6-0EFEF6EA3A21}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Calm Theme Intro" ID="{91E5137A-A8EC-4FBE-A1BA-F124AD89F8B6}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="90182.6984126984"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Calm Theme Intro" ID="{5CAE6CF8-13F6-4F46-9753-B26D6AE70A3A}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{431E3C3F-52F0-4272-921B-13F7BAB3511D}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{5A07EEAD-3F01-4912-88E3-A8F3DCC90AE2}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="73833.2805824188"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Calm Theme Loopable Part" ID="{701BE665-6418-44D3-B843-6EF906A41ED3}" ShortID="966247000">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="75471.156462585"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1DD17D32-EFCA-4DAF-BCCB-00612BE85D79}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3655B0B8-AB78-4F2D-ABB8-F58B5CC104F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Calm Theme Loopable Part" ID="{F7116AEF-EDF1-41D6-894D-63CE9931C788}" ShortID="173989825">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3655B0B8-AB78-4F2D-ABB8-F58B5CC104F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Calm Theme Loopable Part" ID="{F946FB4B-EE10-4C93-AC11-198DE3AA0801}">
+													<Language>SFX</Language>
+													<AudioFile>Calm Theme Loopable Part.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="377411436"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{AFAF6D70-F3AA-4306-BC45-7B7A0E77F532}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{C967BD28-E6C6-4962-A09A-871D4DEF9B9B}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Calm Theme Loopable Part" ID="{E4730AC0-F2D3-480F-9137-248429832CAD}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="75471.156462585"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Calm Theme Loopable Part" ID="{F946FB4B-EE10-4C93-AC11-198DE3AA0801}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{3F8F2F4D-2517-4116-A739-2EE8E80482E0}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{A3E310CE-0226-4889-AF92-B351CFD479E9}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="59202.3605515784"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{8E37510F-7F22-44F2-8170-8B737D7055EB}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{A954C3F6-A01A-405C-B086-C8F4974CF940}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{6BEAE68F-24E5-4B9E-B9F0-8AF282643B81}" ShortID="957705817">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{51FFA813-7B1F-4F41-B177-7F3085105963}" ShortID="925505267">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Calm Theme Intro" ID="{8EA58A72-F830-46EF-A1E3-E3BE29A04526}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{2A6678E6-C343-4C2E-89EA-39F7D9E367CB}" ShortID="455134951">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Calm Theme Loopable Part" ID="{701BE665-6418-44D3-B843-6EF906A41ED3}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="hunting" ID="{34862EEF-BB0C-4E88-974E-ACB90558F976}" ShortID="713230375">
+					<ChildrenList>
+						<MusicPlaylistContainer Name="hunting" ID="{33D2672F-E943-4D78-982C-15B52B028D8B}" ShortID="816793475">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1DD17D32-EFCA-4DAF-BCCB-00612BE85D79}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3655B0B8-AB78-4F2D-ABB8-F58B5CC104F7}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Hunting Theme Intro" ID="{31DCDECC-D257-4D9A-87C0-C7AC5755CE66}" ShortID="649049387">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="63961.5419501134"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1DD17D32-EFCA-4DAF-BCCB-00612BE85D79}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3655B0B8-AB78-4F2D-ABB8-F58B5CC104F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Hunting Theme Intro" ID="{6B467DFE-24E8-49AC-BBD7-4F092D769854}" ShortID="348286918">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3655B0B8-AB78-4F2D-ABB8-F58B5CC104F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hunting Theme Intro" ID="{EBE3D9C6-251C-47AF-A00D-9C10C5CC2D9F}">
+													<Language>SFX</Language>
+													<AudioFile>Hunting Theme Intro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="165221958"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{BF219C38-0EAE-436E-ADBE-0FD29701DA47}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4FBD9AD9-FBAE-48E8-B9B2-F9C2F868BA83}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Hunting Theme Intro" ID="{0826B841-A0EE-4EFF-A885-70926BB11877}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="63961.5419501134"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Hunting Theme Intro" ID="{EBE3D9C6-251C-47AF-A00D-9C10C5CC2D9F}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{5A03DBDB-349D-4AF2-AA29-F226757A8BD8}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{DF181030-7326-4613-A7C8-08F51BB95BDE}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="59070.29859013"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Hunting Theme Loopable Part" ID="{28FEC6C4-3291-4A3C-BDED-F9A9557801C4}" ShortID="816189470">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="63961.5419501134"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1DD17D32-EFCA-4DAF-BCCB-00612BE85D79}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3655B0B8-AB78-4F2D-ABB8-F58B5CC104F7}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Hunting Theme Loopable Part" ID="{6A8C8D45-3212-4FC2-9DD6-A020D2D588ED}" ShortID="309994000">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{3655B0B8-AB78-4F2D-ABB8-F58B5CC104F7}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hunting Theme Loopable Part" ID="{CA3D6446-DB99-4B1A-ADF9-A60FE50EB11F}">
+													<Language>SFX</Language>
+													<AudioFile>Hunting Theme Loopable Part.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="724483118"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{42D44DC3-2228-4D6E-9322-76FCB6E9A344}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9A99E465-24CE-4F2B-A1AE-7D0CA0CB52C1}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Hunting Theme Loopable Part" ID="{5C9F3B68-099E-4A64-9932-59CCF7B53B84}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="63961.5419501134"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Hunting Theme Loopable Part" ID="{CA3D6446-DB99-4B1A-ADF9-A60FE50EB11F}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{BCF6CFED-1973-46AE-A900-0D487DE38F32}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{14AF8182-8C75-458B-A034-BC0127F55352}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="59099.2270817565"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{6E14BEBB-0191-43C2-BFC3-E1E6D824DA78}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{CE1DA16A-2C29-4ECA-B37B-FD4BDE866647}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{6BEB9944-D8E0-4249-99A9-FF8B5146E240}" ShortID="344145738">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{7CD46BE8-EABA-44A8-B47B-16DF77F84DE4}" ShortID="751833642">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Hunting Theme Intro" ID="{31DCDECC-D257-4D9A-87C0-C7AC5755CE66}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{26C3F225-2739-43B3-ABB0-5C53443A6592}" ShortID="1015567555">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Hunting Theme Loopable Part" ID="{28FEC6C4-3291-4A3C-BDED-F9A9557801C4}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

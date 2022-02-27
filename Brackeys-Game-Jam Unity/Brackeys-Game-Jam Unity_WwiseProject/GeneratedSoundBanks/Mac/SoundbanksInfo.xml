@@ -11,11 +11,27 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="951883595" Language="SFX" Hash="3842782219">
+		<SoundBank Id="951883595" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\main_game</ObjectPath>
 			<ShortName>main_game</ShortName>
 			<Path>main_game.bnk</Path>
 			<IncludedEvents>
+				<Event Id="59112580" Name="bear_step" ObjectPath="\Events\Default Work Unit\bear_step" DurationType="OneShot" DurationMin="1.019384" DurationMax="1.65463">
+					<IncludedMemoryFiles>
+						<File Id="359480369" Language="SFX">
+							<ShortName>bear-step-2.wav</ShortName>
+							<Path>SFX\bear-step-2_10C4C929.wem</Path>
+						</File>
+						<File Id="918047085" Language="SFX">
+							<ShortName>bear-step-1.wav</ShortName>
+							<Path>SFX\bear-step-1_10C4C929.wem</Path>
+						</File>
+						<File Id="1020644842" Language="SFX">
+							<ShortName>bear-step-3.wav</ShortName>
+							<Path>SFX\bear-step-3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3020458995" Name="change_battery" ObjectPath="\Events\Default Work Unit\change_battery" DurationType="OneShot" DurationMin="2.350247" DurationMax="3.521392">
 					<IncludedMemoryFiles>
 						<File Id="314421323" Language="SFX">
@@ -45,6 +61,38 @@
 						<File Id="355589388" Language="SFX">
 							<ShortName>pickup-battery.wav</ShortName>
 							<Path>SFX\pickup-battery_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3346279975" Name="player_step_asphalt" ObjectPath="\Events\Default Work Unit\player_step_asphalt" DurationType="OneShot" DurationMin="1.160965" DurationMax="1.796051">
+					<IncludedMemoryFiles>
+						<File Id="94359344" Language="SFX">
+							<ShortName>asphalt-3.wav</ShortName>
+							<Path>SFX\asphalt-3_10C4C929.wem</Path>
+						</File>
+						<File Id="110125737" Language="SFX">
+							<ShortName>asphalt-1.wav</ShortName>
+							<Path>SFX\asphalt-1_10C4C929.wem</Path>
+						</File>
+						<File Id="218380725" Language="SFX">
+							<ShortName>asphalt-2.wav</ShortName>
+							<Path>SFX\asphalt-2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="487476216" Name="player_step_grass" ObjectPath="\Events\Default Work Unit\player_step_grass" DurationType="OneShot" DurationMin="0.97219" DurationMax="1.612203">
+					<IncludedMemoryFiles>
+						<File Id="530708801" Language="SFX">
+							<ShortName>player-gras-step2.wav</ShortName>
+							<Path>SFX\player-gras-step2_10C4C929.wem</Path>
+						</File>
+						<File Id="740351317" Language="SFX">
+							<ShortName>player-gras-step1.wav</ShortName>
+							<Path>SFX\player-gras-step1_10C4C929.wem</Path>
+						</File>
+						<File Id="775994150" Language="SFX">
+							<ShortName>player-gras-step3.wav</ShortName>
+							<Path>SFX\player-gras-step3_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -106,10 +154,59 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+		<SoundBank Id="1355168291" Language="SFX" Hash="193968647">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="3454906332">
+			<ObjectPath>\SoundBanks\Default Work Unit\music</ObjectPath>
+			<ShortName>music</ShortName>
+			<Path>music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4081526380" Name="music_calm" ObjectPath="\Events\Default Work Unit\music_calm" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="377411436" Language="SFX">
+							<ShortName>Calm Theme Loopable Part.wav</ShortName>
+							<Path>SFX\Calm Theme Loopable Part_D79FB2B7.wem</Path>
+						</File>
+						<File Id="390827778" Language="SFX">
+							<ShortName>Calm Theme Intro.wav</ShortName>
+							<Path>SFX\Calm Theme Intro_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4020045034" Name="music_hunting" ObjectPath="\Events\Default Work Unit\music_hunting" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="165221958" Language="SFX">
+							<ShortName>Hunting Theme Intro.wav</ShortName>
+							<Path>SFX\Hunting Theme Intro_D79FB2B7.wem</Path>
+						</File>
+						<File Id="724483118" Language="SFX">
+							<ShortName>Hunting Theme Loopable Part.wav</ShortName>
+							<Path>SFX\Hunting Theme Loopable Part_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="165221958" Language="SFX">
+					<ShortName>Hunting Theme Intro.wav</ShortName>
+					<Path>SFX\Hunting Theme Intro_D79FB2B7.wem</Path>
+				</File>
+				<File Id="377411436" Language="SFX">
+					<ShortName>Calm Theme Loopable Part.wav</ShortName>
+					<Path>SFX\Calm Theme Loopable Part_D79FB2B7.wem</Path>
+				</File>
+				<File Id="390827778" Language="SFX">
+					<ShortName>Calm Theme Intro.wav</ShortName>
+					<Path>SFX\Calm Theme Intro_D79FB2B7.wem</Path>
+				</File>
+				<File Id="724483118" Language="SFX">
+					<ShortName>Hunting Theme Loopable Part.wav</ShortName>
+					<Path>SFX\Hunting Theme Loopable Part_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
