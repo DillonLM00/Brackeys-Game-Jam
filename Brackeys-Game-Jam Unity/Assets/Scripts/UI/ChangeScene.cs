@@ -6,6 +6,9 @@ public class ChangeScene : MonoBehaviour
 {
     public void changeSceneOnClick(string sceneName)
     {
+        AkSoundEngine.StopAll();
         SceneManager.LoadScene(sceneName);
+
+        
     }
 }
