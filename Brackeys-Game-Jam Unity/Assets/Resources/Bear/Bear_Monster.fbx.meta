@@ -18,7 +18,12 @@ ModelImporter:
   - first:
       74: 409077165632991852
     second: Armature|04_Roar
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyes
+    second: {fileID: 2100000, guid: 29181d61909a98f4394a91e699a5106e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
