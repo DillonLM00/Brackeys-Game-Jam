@@ -5,10 +5,10 @@
 			<ChildrenList>
 				<Event Name="change_battery" ID="{271F8FDE-20F4-45CE-9474-8BE02C727618}">
 					<ChildrenList>
-						<Action Name="" ID="{A76DE5AB-1F13-4BFC-952E-59D76D02C454}" ShortID="1023562308">
+						<Action Name="" ID="{5AAA1C55-5F18-409B-BC0D-338E500C48F4}" ShortID="271619844">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="batteriewechsel" ID="{0F14C243-C678-4CBB-B85A-962249272F51}" WorkUnitID="{5CF876E1-3AA4-4241-AD9A-84899252D5D1}"/>
+									<ObjectRef Name="batteriewechselcon" ID="{3C749AE9-1562-4578-9800-942799759388}" WorkUnitID="{5CF876E1-3AA4-4241-AD9A-84899252D5D1}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -16,10 +16,10 @@
 				</Event>
 				<Event Name="flashlight_on" ID="{92FB8374-1B1B-4745-B48B-9D5504973B98}">
 					<ChildrenList>
-						<Action Name="" ID="{3CE87E0F-F8E4-4F5C-ACD1-CBF476AECC82}" ShortID="969645203">
+						<Action Name="" ID="{B3585BE7-5B8F-44A2-8D0D-3462B03C308D}" ShortID="728244699">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="lampe-an" ID="{3DA4FC14-2405-4D02-A0DC-E5F8A2CBCA3C}" WorkUnitID="{5CF876E1-3AA4-4241-AD9A-84899252D5D1}"/>
+									<ObjectRef Name="lampe an" ID="{6FE5F4C5-7664-4930-B7B3-09A610A248C5}" WorkUnitID="{5CF876E1-3AA4-4241-AD9A-84899252D5D1}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -27,10 +27,10 @@
 				</Event>
 				<Event Name="flashlight_off" ID="{9CBF0C7B-EB9A-4E63-8012-28D6A75584F7}">
 					<ChildrenList>
-						<Action Name="" ID="{5E1DEDE7-C7A7-4441-8FF4-B9EB92852FD0}" ShortID="730751114">
+						<Action Name="" ID="{FD3671FA-05C6-4F4F-8424-A67FE912178D}" ShortID="795493164">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="lampe-aus" ID="{CAAAAF9C-294F-487A-A383-7579D26DBDBF}" WorkUnitID="{5CF876E1-3AA4-4241-AD9A-84899252D5D1}"/>
+									<ObjectRef Name="lampe aus" ID="{653C0720-4837-4958-86C6-22702801D9B5}" WorkUnitID="{5CF876E1-3AA4-4241-AD9A-84899252D5D1}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -38,10 +38,10 @@
 				</Event>
 				<Event Name="pickup_battery" ID="{E8BFCEA8-094C-4709-A985-6A9EF1007B5B}">
 					<ChildrenList>
-						<Action Name="" ID="{C0CF7F5A-C071-40C0-942D-D708A7971D5D}" ShortID="150017844">
+						<Action Name="" ID="{1DA3F069-4181-4334-B3B6-9430340B0D0D}" ShortID="785178987">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="pickup-battery" ID="{32CC1844-CC1D-45D1-B225-D6444514383C}" WorkUnitID="{5CF876E1-3AA4-4241-AD9A-84899252D5D1}"/>
+									<ObjectRef Name="pickup" ID="{DE8A43D7-4DFC-41C6-AADD-0A5AA9A914F5}" WorkUnitID="{5CF876E1-3AA4-4241-AD9A-84899252D5D1}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -49,10 +49,10 @@
 				</Event>
 				<Event Name="zippo_open" ID="{E1D7FCEB-2AD2-41F2-A040-CED355124002}">
 					<ChildrenList>
-						<Action Name="" ID="{B44374CE-1929-4872-9794-9961B491CBCD}" ShortID="1031186562">
+						<Action Name="" ID="{96CC6ABD-4054-4EB2-B66A-F4301C999DB5}" ShortID="467265386">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="zuenden" ID="{D5FF2CEE-20B8-4D89-8C98-8054027C6428}" WorkUnitID="{5CF876E1-3AA4-4241-AD9A-84899252D5D1}"/>
+									<ObjectRef Name="auf" ID="{3D4B42CD-3DFD-4E59-B9CA-443F75EA7229}" WorkUnitID="{5CF876E1-3AA4-4241-AD9A-84899252D5D1}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -60,10 +60,10 @@
 				</Event>
 				<Event Name="zippo_close" ID="{793C65FD-777D-41C3-BD78-337A8CD86DE3}">
 					<ChildrenList>
-						<Action Name="" ID="{57D9CD71-7B15-411C-862E-B8580DAC8F3B}" ShortID="201790229">
+						<Action Name="" ID="{FBF4FD82-738B-47B5-A05E-0B57E8EA9B53}" ShortID="133525671">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="klappe-zu" ID="{66B761B6-103F-4C37-8FB9-037C8D2F32D7}" WorkUnitID="{5CF876E1-3AA4-4241-AD9A-84899252D5D1}"/>
+									<ObjectRef Name="zu" ID="{7912722C-3272-4941-AB7C-D3B188F9A686}" WorkUnitID="{5CF876E1-3AA4-4241-AD9A-84899252D5D1}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -71,10 +71,10 @@
 				</Event>
 				<Event Name="zippo_on" ID="{4A68E346-F7EC-42FA-B914-D16645B0659D}">
 					<ChildrenList>
-						<Action Name="" ID="{C14E5B56-A57B-4A9B-8E11-D735F07C04B3}" ShortID="411456305">
+						<Action Name="" ID="{0231382C-ECD2-43A8-A6DD-C287608D80C7}" ShortID="791810908">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="klappe-auf" ID="{0195A4B7-1D6D-4032-A81D-7735F8283C7C}" WorkUnitID="{5CF876E1-3AA4-4241-AD9A-84899252D5D1}"/>
+									<ObjectRef Name="auf" ID="{3D4B42CD-3DFD-4E59-B9CA-443F75EA7229}" WorkUnitID="{5CF876E1-3AA4-4241-AD9A-84899252D5D1}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

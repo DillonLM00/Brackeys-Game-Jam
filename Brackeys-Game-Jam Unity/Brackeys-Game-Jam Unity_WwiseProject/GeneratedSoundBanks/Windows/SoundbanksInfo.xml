@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="951883595" Language="SFX" Hash="3243661130">
+		<SoundBank Id="951883595" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\main_game</ObjectPath>
 			<ShortName>main_game</ShortName>
 			<Path>main_game.bnk</Path>
@@ -96,19 +96,55 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3015918127" Name="spider_step" ObjectPath="\Events\Default Work Unit\spider_step" DurationType="OneShot" DurationMin="1.368618" DurationMax="2.687006">
+				<Event Id="3015918127" Name="spider_step" ObjectPath="\Events\Default Work Unit\spider_step" DurationType="OneShot" DurationMin="0.440175" DurationMax="0.938287">
 					<IncludedMemoryFiles>
-						<File Id="423894948" Language="SFX">
-							<ShortName>spider2.wav</ShortName>
-							<Path>SFX\spider2_10C4C929.wem</Path>
+						<File Id="14709016" Language="SFX">
+							<ShortName>spider_step_12.wav</ShortName>
+							<Path>SFX\spider_step_12_10C4C929.wem</Path>
 						</File>
-						<File Id="636436796" Language="SFX">
-							<ShortName>spider1.wav</ShortName>
-							<Path>SFX\spider1_10C4C929.wem</Path>
+						<File Id="101586227" Language="SFX">
+							<ShortName>spider_step_6.wav</ShortName>
+							<Path>SFX\spider_step_6_10C4C929.wem</Path>
 						</File>
-						<File Id="958126643" Language="SFX">
-							<ShortName>spider3.wav</ShortName>
-							<Path>SFX\spider3_10C4C929.wem</Path>
+						<File Id="125374328" Language="SFX">
+							<ShortName>spider_step_10.wav</ShortName>
+							<Path>SFX\spider_step_10_10C4C929.wem</Path>
+						</File>
+						<File Id="181908710" Language="SFX">
+							<ShortName>spider_step_3.wav</ShortName>
+							<Path>SFX\spider_step_3_10C4C929.wem</Path>
+						</File>
+						<File Id="260833693" Language="SFX">
+							<ShortName>spider_step_8.wav</ShortName>
+							<Path>SFX\spider_step_8_10C4C929.wem</Path>
+						</File>
+						<File Id="353256382" Language="SFX">
+							<ShortName>spider_step_7.wav</ShortName>
+							<Path>SFX\spider_step_7_10C4C929.wem</Path>
+						</File>
+						<File Id="447131386" Language="SFX">
+							<ShortName>spider_step_1.wav</ShortName>
+							<Path>SFX\spider_step_1_10C4C929.wem</Path>
+						</File>
+						<File Id="710746196" Language="SFX">
+							<ShortName>spider_step_11.wav</ShortName>
+							<Path>SFX\spider_step_11_10C4C929.wem</Path>
+						</File>
+						<File Id="793625388" Language="SFX">
+							<ShortName>spider_step_9.wav</ShortName>
+							<Path>SFX\spider_step_9_10C4C929.wem</Path>
+						</File>
+						<File Id="804886260" Language="SFX">
+							<ShortName>spider_step_4.wav</ShortName>
+							<Path>SFX\spider_step_4_10C4C929.wem</Path>
+						</File>
+						<File Id="906866814" Language="SFX">
+							<ShortName>spider_step_2.wav</ShortName>
+							<Path>SFX\spider_step_2_10C4C929.wem</Path>
+						</File>
+						<File Id="964024635" Language="SFX">
+							<ShortName>spider_step_5.wav</ShortName>
+							<Path>SFX\spider_step_5_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -144,11 +180,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3865570096" Name="zippo_open" ObjectPath="\Events\Default Work Unit\zippo_open" DurationType="OneShot" DurationMin="0.415305" DurationMax="0.554365">
+				<Event Id="3865570096" Name="zippo_open" ObjectPath="\Events\Default Work Unit\zippo_open" DurationType="OneShot" DurationMin="0.556886" DurationMax="0.701632">
 					<IncludedMemoryFiles>
-						<File Id="308231462" Language="SFX">
-							<ShortName>zuenden.wav</ShortName>
-							<Path>SFX\zuenden_10C4C929.wem</Path>
+						<File Id="1054708291" Language="SFX">
+							<ShortName>klappe-auf.wav</ShortName>
+							<Path>SFX\klappe-auf_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -159,7 +195,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX">
+		<SoundBank Id="3991942870" Language="SFX" Hash="617086640">
 			<ObjectPath>\SoundBanks\Default Work Unit\music</ObjectPath>
 			<ShortName>music</ShortName>
 			<Path>music.bnk</Path>
