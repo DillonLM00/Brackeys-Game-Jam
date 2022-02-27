@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="951883595" Language="SFX">
+		<SoundBank Id="951883595" Language="SFX" Hash="3243661130">
 			<ObjectPath>\SoundBanks\Default Work Unit\main_game</ObjectPath>
 			<ShortName>main_game</ShortName>
 			<Path>main_game.bnk</Path>
@@ -96,19 +96,19 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3015918127" Name="spider_step" ObjectPath="\Events\Default Work Unit\spider_step" DurationType="OneShot" DurationMin="0.613518" DurationMax="1.216224">
+				<Event Id="3015918127" Name="spider_step" ObjectPath="\Events\Default Work Unit\spider_step" DurationType="OneShot" DurationMin="1.368618" DurationMax="2.687006">
 					<IncludedMemoryFiles>
-						<File Id="95070088" Language="SFX">
-							<ShortName>spinne-step-2.wav</ShortName>
-							<Path>SFX\spinne-step-2_10C4C929.wem</Path>
+						<File Id="423894948" Language="SFX">
+							<ShortName>spider2.wav</ShortName>
+							<Path>SFX\spider2_10C4C929.wem</Path>
 						</File>
-						<File Id="450991866" Language="SFX">
-							<ShortName>spinne-step-1.wav</ShortName>
-							<Path>SFX\spinne-step-1_10C4C929.wem</Path>
+						<File Id="636436796" Language="SFX">
+							<ShortName>spider1.wav</ShortName>
+							<Path>SFX\spider1_10C4C929.wem</Path>
 						</File>
-						<File Id="823815447" Language="SFX">
-							<ShortName>spinne-step-3.wav</ShortName>
-							<Path>SFX\spinne-step-3_10C4C929.wem</Path>
+						<File Id="958126643" Language="SFX">
+							<ShortName>spider3.wav</ShortName>
+							<Path>SFX\spider3_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -159,7 +159,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="3454906332">
+		<SoundBank Id="3991942870" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\music</ObjectPath>
 			<ShortName>music</ShortName>
 			<Path>music.bnk</Path>
