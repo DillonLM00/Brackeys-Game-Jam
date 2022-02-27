@@ -34095,6 +34095,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1323541534685470415, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_text
+      value: You were caught!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1323541534685470415, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: dee650a08e052c246b7e7c75fc90f2ea, type: 2}
+    - target: {fileID: 1323541534685470415, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 5362027593684874319, guid: dee650a08e052c246b7e7c75fc90f2ea, type: 2}
     - target: {fileID: 2413529212278284986, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -34142,6 +34154,10 @@ PrefabInstance:
     - target: {fileID: 7528208770611167589, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9205618704721983239, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e7411e10b2c00340aed515085f2b5fc, type: 3}
