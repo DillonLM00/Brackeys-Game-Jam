@@ -42,7 +42,6 @@ GameObject:
   - component: {fileID: 8026807039754944542}
   - component: {fileID: 7895586250746109278}
   - component: {fileID: 761219101012443436}
-  - component: {fileID: 5773685493362229720}
   m_Layer: 0
   m_Name: "Stra\xDFe"
   m_TagString: Asphalt
@@ -117,19 +116,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5773685493362229720
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2426716495395360892}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.086509, y: 0.059721388, z: 0.0025614656}
-  m_Center: {x: 0.000014599413, y: -0.00006353295, z: -0.0007778704}
 --- !u!1 &4267050088834702223
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,7 +127,6 @@ GameObject:
   - component: {fileID: 5485854418545687107}
   - component: {fileID: 5620660894139838802}
   - component: {fileID: 8456709544307365012}
-  - component: {fileID: 5090257759363975032}
   m_Layer: 0
   m_Name: Wiese
   m_TagString: Grass
@@ -215,19 +200,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5090257759363975032
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4267050088834702223}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.08651444, y: 0.035114415, z: 0.0019152812}
-  m_Center: {x: -0.00006186485, y: -0.046889707, z: -0.00032847255}
 --- !u!1 &9062008387487691561
 GameObject:
   m_ObjectHideFlags: 0
@@ -237,6 +209,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8541472728977254803}
+  - component: {fileID: 7842189709682649001}
   m_Layer: 0
   m_Name: StreetStraight
   m_TagString: Untagged
@@ -261,3 +234,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7842189709682649001
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9062008387487691561}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.705243, y: 0.3574025, z: 12.899231}
+  m_Center: {x: -0.016255856, y: -0.068154305, z: 0}
