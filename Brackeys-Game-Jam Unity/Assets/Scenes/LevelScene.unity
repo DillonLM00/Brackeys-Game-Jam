@@ -51921,6 +51921,10 @@ PrefabInstance:
       propertyPath: flashlight
       value: 
       objectReference: {fileID: 1569500697}
+    - target: {fileID: 1842122042725238666, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
+      propertyPath: playerArms
+      value: 
+      objectReference: {fileID: 2079372738}
     - target: {fileID: 1900524374175459988, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -51982,6 +51986,11 @@ PrefabInstance:
 --- !u!1 &2079372737 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1900524374175459988, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
+  m_PrefabInstance: {fileID: 2079372736}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2079372738 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1396257641296090801, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
   m_PrefabInstance: {fileID: 2079372736}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &2081197431 stripped

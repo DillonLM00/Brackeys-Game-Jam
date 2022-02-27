@@ -7,7 +7,19 @@ public class SwapLightsource : MonoBehaviour
     public GameObject flashlight;
     public GameObject lighter;
 
+    public AnimatorOverrideController flashlightAnimator;
+    public AnimatorOverrideController lighterAnimator;
+
+    public GameObject playerArms;
+
+    private Animator playerAnimator;
+
     private bool flashlightActive = true;
+
+    private void Start()
+    {
+        playerAnimator = playerArms.GetComponent<Animator>();
+    }
 
     private void Update()
     {
@@ -15,6 +27,15 @@ public class SwapLightsource : MonoBehaviour
         {
             flashlight.SetActive(!flashlight.activeSelf);
             lighter.SetActive(!lighter.activeSelf);
+
+            if (flashlight.activeSelf)
+            {
+                playerAnimator.runtimeAnimatorController = flashlightAnimator;
+            }
+            else
+            {
+                playerAnimator.runtimeAnimatorController = lighterAnimator;
+            }
         }
     }
 }
