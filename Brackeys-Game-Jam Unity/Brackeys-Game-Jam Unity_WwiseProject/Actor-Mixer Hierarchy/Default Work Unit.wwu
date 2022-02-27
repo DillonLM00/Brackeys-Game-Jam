@@ -666,14 +666,12 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="spinne-step-1" ID="{7DFB44EB-1D21-4C83-96E6-7042E13B2392}" ShortID="930022388">
+								<Sound Name="spider1" ID="{75323D95-4476-434A-92DC-8E1276F85106}" ShortID="870883215">
 									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{722FEE08-B3A4-4C2A-9F05-B528F3F2167A}"/>
-												</ModifierInfo>
-											</ModifierList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -685,20 +683,27 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="spinne-step-1" ID="{24BB3674-CED6-45B4-A7A1-E5B7E1849CC3}">
+										<AudioFileSource Name="spider1" ID="{CE37BB19-FD0B-4546-96D0-7FAA5B28D440}">
 											<Language>SFX</Language>
-											<AudioFile>spinne-step-1.wav</AudioFile>
+											<AudioFile>spider1.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="450991866"/>
+												<MediaID ID="636436796"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="spinne-step-1" ID="{24BB3674-CED6-45B4-A7A1-E5B7E1849CC3}" Platform="Linked"/>
+										<ActiveSource Name="spider1" ID="{CE37BB19-FD0B-4546-96D0-7FAA5B28D440}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="spinne-step-3" ID="{7D3154EB-7B9E-4523-AE11-7D46D52E9ECE}" ShortID="967113273">
+								<Sound Name="spider2" ID="{DC1F45A2-A0C9-4659-A2DA-DD60F1AD2E78}" ShortID="494076273">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1DD17D32-EFCA-4DAF-BCCB-00612BE85D79}"/>
@@ -708,20 +713,27 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="spinne-step-3" ID="{72D02015-FC8A-4FC2-98FF-5E6AF9B01C53}">
+										<AudioFileSource Name="spider2" ID="{722A368A-157C-429B-9A09-71AAE12795D5}">
 											<Language>SFX</Language>
-											<AudioFile>spinne-step-3.wav</AudioFile>
+											<AudioFile>spider2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="823815447"/>
+												<MediaID ID="423894948"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="spinne-step-3" ID="{72D02015-FC8A-4FC2-98FF-5E6AF9B01C53}" Platform="Linked"/>
+										<ActiveSource Name="spider2" ID="{722A368A-157C-429B-9A09-71AAE12795D5}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="spinne-step-2" ID="{BF94A4BD-1D16-4778-A300-25EC95AF3202}" ShortID="224946239">
+								<Sound Name="spider3" ID="{908878B3-61DF-4081-9864-6757812D8A4F}" ShortID="226440118">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1DD17D32-EFCA-4DAF-BCCB-00612BE85D79}"/>
@@ -731,17 +743,17 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="spinne-step-2" ID="{2ADDE165-3D6D-4C66-B627-44FBBF5FB859}">
+										<AudioFileSource Name="spider3" ID="{71C5B3D4-E190-454A-8C69-615994DCCF8F}">
 											<Language>SFX</Language>
-											<AudioFile>spinne-step-2.wav</AudioFile>
+											<AudioFile>spider3.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="95070088"/>
+												<MediaID ID="958126643"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="spinne-step-2" ID="{2ADDE165-3D6D-4C66-B627-44FBBF5FB859}" Platform="Linked"/>
+										<ActiveSource Name="spider3" ID="{71C5B3D4-E190-454A-8C69-615994DCCF8F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
