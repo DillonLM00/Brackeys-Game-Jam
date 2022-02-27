@@ -73,18 +73,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runningSpeed: 5
   walkingSpeed: 3.5
-  visionRange: 20
+  visionRange: 15
   blickWinkel: 100
   earRange: 30
   noiseTolerance: 5
   noiseMultiplier: 5
-  lightAttraction: 0.2
+  lightAttraction: 0.15
   seeFoolishness: 5
   listenFoolishness: 5
   lightFoolishness: 5
   recognizeTime: 0.3
   recognizeDistance: 5
   patrouilleWaitTime: 5
+  catchRange: 4
   ignoreTheseColliders:
     serializedVersion: 2
     m_Bits: 4
