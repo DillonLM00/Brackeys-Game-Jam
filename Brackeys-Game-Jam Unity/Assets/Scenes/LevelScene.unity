@@ -55967,6 +55967,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7263987484542566132, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 7298478226877722640, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -55977,6 +55981,27 @@ PrefabInstance:
       objectReference: {fileID: 1777291362}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
+--- !u!1 &2117035804 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7263987484542566132, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
+  m_PrefabInstance: {fileID: 2117035803}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2117035805
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117035804}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 3
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &2119119371
 PrefabInstance:
   m_ObjectHideFlags: 0
