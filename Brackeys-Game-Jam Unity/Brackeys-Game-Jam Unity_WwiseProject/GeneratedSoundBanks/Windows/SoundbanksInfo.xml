@@ -11,24 +11,24 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="951883595" Language="SFX">
+		<SoundBank Id="951883595" Language="SFX" Hash="2771109907">
 			<ObjectPath>\SoundBanks\Default Work Unit\main_game</ObjectPath>
 			<ShortName>main_game</ShortName>
 			<Path>main_game.bnk</Path>
 			<IncludedEvents>
-				<Event Id="59112580" Name="bear_step" ObjectPath="\Events\Default Work Unit\bear_step" DurationType="OneShot" DurationMin="1.019384" DurationMax="1.65463">
+				<Event Id="59112580" Name="bear_step" ObjectPath="\Events\Default Work Unit\bear_step" DurationType="OneShot" DurationMin="0.582462" DurationMax="1.009602">
 					<IncludedMemoryFiles>
-						<File Id="359480369" Language="SFX">
-							<ShortName>bear-step-2.wav</ShortName>
-							<Path>SFX\bear-step-2_10C4C929.wem</Path>
+						<File Id="241454611" Language="SFX">
+							<ShortName>bear-step-3-AudioTrimmer.com.wav</ShortName>
+							<Path>SFX\bear-step-3-AudioTrimmer.com_10C4C929.wem</Path>
 						</File>
-						<File Id="918047085" Language="SFX">
-							<ShortName>bear-step-1.wav</ShortName>
-							<Path>SFX\bear-step-1_10C4C929.wem</Path>
+						<File Id="529439077" Language="SFX">
+							<ShortName>bear-step-1-AudioTrimmer.com_2.wav</ShortName>
+							<Path>SFX\bear-step-1-AudioTrimmer.com_2_10C4C929.wem</Path>
 						</File>
-						<File Id="1020644842" Language="SFX">
-							<ShortName>bear-step-3.wav</ShortName>
-							<Path>SFX\bear-step-3_10C4C929.wem</Path>
+						<File Id="824442662" Language="SFX">
+							<ShortName>bear-step-2-AudioTrimmer.com.wav</ShortName>
+							<Path>SFX\bear-step-2-AudioTrimmer.com_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -64,35 +64,35 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3346279975" Name="player_step_asphalt" ObjectPath="\Events\Default Work Unit\player_step_asphalt" DurationType="OneShot" DurationMin="1.160965" DurationMax="1.796051">
+				<Event Id="3346279975" Name="player_step_asphalt" ObjectPath="\Events\Default Work Unit\player_step_asphalt" DurationType="OneShot" DurationMin="0.587774" DurationMax="0.951119">
 					<IncludedMemoryFiles>
-						<File Id="94359344" Language="SFX">
-							<ShortName>asphalt-3.wav</ShortName>
-							<Path>SFX\asphalt-3_10C4C929.wem</Path>
+						<File Id="256618546" Language="SFX">
+							<ShortName>asphalt-3-AudioTrimmer.com.wav</ShortName>
+							<Path>SFX\asphalt-3-AudioTrimmer.com_10C4C929.wem</Path>
 						</File>
-						<File Id="110125737" Language="SFX">
-							<ShortName>asphalt-1.wav</ShortName>
-							<Path>SFX\asphalt-1_10C4C929.wem</Path>
+						<File Id="481298426" Language="SFX">
+							<ShortName>asphalt-2-AudioTrimmer.com.wav</ShortName>
+							<Path>SFX\asphalt-2-AudioTrimmer.com_10C4C929.wem</Path>
 						</File>
-						<File Id="218380725" Language="SFX">
-							<ShortName>asphalt-2.wav</ShortName>
-							<Path>SFX\asphalt-2_10C4C929.wem</Path>
+						<File Id="735704510" Language="SFX">
+							<ShortName>asphalt-1-AudioTrimmer.com.wav</ShortName>
+							<Path>SFX\asphalt-1-AudioTrimmer.com_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="487476216" Name="player_step_grass" ObjectPath="\Events\Default Work Unit\player_step_grass" DurationType="OneShot" DurationMin="0.97219" DurationMax="1.612203">
+				<Event Id="487476216" Name="player_step_grass" ObjectPath="\Events\Default Work Unit\player_step_grass" DurationType="OneShot" DurationMin="0.39214" DurationMax="0.660989">
 					<IncludedMemoryFiles>
-						<File Id="530708801" Language="SFX">
-							<ShortName>player-gras-step2.wav</ShortName>
-							<Path>SFX\player-gras-step2_10C4C929.wem</Path>
+						<File Id="449446988" Language="SFX">
+							<ShortName>player-gras-step2-AudioTrimmer.com.wav</ShortName>
+							<Path>SFX\player-gras-step2-AudioTrimmer.com_10C4C929.wem</Path>
 						</File>
-						<File Id="740351317" Language="SFX">
-							<ShortName>player-gras-step1.wav</ShortName>
-							<Path>SFX\player-gras-step1_10C4C929.wem</Path>
+						<File Id="794783349" Language="SFX">
+							<ShortName>player-gras-step3-AudioTrimmer.com.wav</ShortName>
+							<Path>SFX\player-gras-step3-AudioTrimmer.com_10C4C929.wem</Path>
 						</File>
-						<File Id="775994150" Language="SFX">
-							<ShortName>player-gras-step3.wav</ShortName>
-							<Path>SFX\player-gras-step3_10C4C929.wem</Path>
+						<File Id="836905904" Language="SFX">
+							<ShortName>player-gras-step1-AudioTrimmer.com.wav</ShortName>
+							<Path>SFX\player-gras-step1-AudioTrimmer.com_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -148,7 +148,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1593284794" Name="trash_step" ObjectPath="\Events\Default Work Unit\trash_step" DurationType="OneShot" DurationMin="1.340301" DurationMax="2.163747">
+				<Event Id="1593284794" Name="trash_step" ObjectPath="\Events\Default Work Unit\trash_step" DurationType="OneShot" DurationMin="1.243343" DurationMax="2.007219">
 					<IncludedMemoryFiles>
 						<File Id="445535504" Language="SFX">
 							<ShortName>trash-step-1.wav</ShortName>
@@ -195,7 +195,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3991942870" Language="SFX" Hash="617086640">
+		<SoundBank Id="3991942870" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\music</ObjectPath>
 			<ShortName>music</ShortName>
 			<Path>music.bnk</Path>
