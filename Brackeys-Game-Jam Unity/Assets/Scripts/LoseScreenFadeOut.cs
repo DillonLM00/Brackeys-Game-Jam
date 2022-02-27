@@ -12,19 +12,24 @@ public class LoseScreenFadeOut : MonoBehaviour
 
     private void Start()
     {
-        fadeOut = GetComponent<Image>();
+        //fadeOut = GetComponent<Image>();
         
         player = FindObjectOfType<FirstPersonController>();
 
-        alpha = 0f;
+       // alpha = 0f;
     }
 
-    private void Update()
-    {
-        if (alpha >= 1)
-            player.setToCheckpoint();
+    //private void Update()
+    //{
+    //    if (alpha >= 1)
+    //        player.setToCheckpoint();
 
-        alpha += Time.deltaTime / fadeSpeed;
-        fadeOut.color = new Color(fadeOut.color.r, fadeOut.color.g, fadeOut.color.b, alpha);
+    //    alpha += Time.deltaTime / fadeSpeed;
+    //    fadeOut.color = new Color(fadeOut.color.r, fadeOut.color.g, fadeOut.color.b, alpha);
+    //}
+
+    public void respawnPlayer()
+    {
+        player.setToCheckpoint();
     }
 }

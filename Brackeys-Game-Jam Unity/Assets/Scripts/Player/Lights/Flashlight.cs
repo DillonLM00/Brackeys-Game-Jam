@@ -7,7 +7,7 @@ public class Flashlight : MonoBehaviour
 {
     public Light flashlightLight;
     public float batteryCharge = 100;
-    private float batteryUsePerSecond = 30; // how much charge gets used per second
+    private float batteryUsePerSecond = 10; // how much charge gets used per second
 
     public int exchangeBatteries = 3;
 
