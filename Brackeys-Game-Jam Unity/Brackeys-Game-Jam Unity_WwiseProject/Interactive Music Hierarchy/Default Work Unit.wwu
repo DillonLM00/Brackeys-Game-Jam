@@ -6,6 +6,13 @@
 				<Folder Name="calm" ID="{2E4C08E1-733A-4921-8A21-52BA5A9CCB8E}" ShortID="631485318">
 					<ChildrenList>
 						<MusicPlaylistContainer Name="calm" ID="{DED89B5F-642E-423E-B229-49E8E73E3E38}" ShortID="222608407">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1DD17D32-EFCA-4DAF-BCCB-00612BE85D79}"/>
@@ -226,6 +233,13 @@
 				<Folder Name="hunting" ID="{34862EEF-BB0C-4E88-974E-ACB90558F976}" ShortID="713230375">
 					<ChildrenList>
 						<MusicPlaylistContainer Name="hunting" ID="{33D2672F-E943-4D78-982C-15B52B028D8B}" ShortID="816793475">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1DD17D32-EFCA-4DAF-BCCB-00612BE85D79}"/>
@@ -238,6 +252,11 @@
 								<MusicSegment Name="Hunting Theme Intro" ID="{31DCDECC-D257-4D9A-87C0-C7AC5755CE66}" ShortID="649049387">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="63961.5419501134"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -322,6 +341,11 @@
 								<MusicSegment Name="Hunting Theme Loopable Part" ID="{28FEC6C4-3291-4A3C-BDED-F9A9557801C4}" ShortID="816189470">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="63961.5419501134"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
