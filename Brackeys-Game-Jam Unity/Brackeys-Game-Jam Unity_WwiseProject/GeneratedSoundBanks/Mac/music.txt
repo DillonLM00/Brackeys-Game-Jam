@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4020045034	music_hunting			\Default Work Unit\music_hunting	
+	4081526380	music_calm			\Default Work Unit\music_calm	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	165221958	Hunting Theme Intro	C:\Users\ronny\Documents\GitHub\Brackeys-Game-Jam\Brackeys-Game-Jam Unity\Brackeys-Game-Jam Unity_WwiseProject\.cache\Mac\SFX\Hunting Theme Intro_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\hunting\hunting\Hunting Theme Intro\Hunting Theme Intro		11283008
+	377411436	Calm Theme Loopable Part	C:\Users\ronny\Documents\GitHub\Brackeys-Game-Jam\Brackeys-Game-Jam Unity\Brackeys-Game-Jam Unity_WwiseProject\.cache\Mac\SFX\Calm Theme Loopable Part_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\calm\calm\Calm Theme Loopable Part\Calm Theme Loopable Part		13313304
+	390827778	Calm Theme Intro	C:\Users\ronny\Documents\GitHub\Brackeys-Game-Jam\Brackeys-Game-Jam Unity\Brackeys-Game-Jam Unity_WwiseProject\.cache\Mac\SFX\Calm Theme Intro_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\calm\calm\Calm Theme Intro\Calm Theme Intro		15908420
+	724483118	Hunting Theme Loopable Part	C:\Users\ronny\Documents\GitHub\Brackeys-Game-Jam\Brackeys-Game-Jam Unity\Brackeys-Game-Jam Unity_WwiseProject\.cache\Mac\SFX\Hunting Theme Loopable Part_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\hunting\hunting\Hunting Theme Loopable Part\Hunting Theme Loopable Part		11283008
+
