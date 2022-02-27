@@ -15,6 +15,8 @@ public class LoseScreenFadeOut : MonoBehaviour
         fadeOut = GetComponent<Image>();
         
         player = FindObjectOfType<FirstPersonController>();
+
+        alpha = 0f;
     }
 
     private void Update()
