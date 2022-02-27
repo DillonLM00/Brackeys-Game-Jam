@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: a7ee03860a9c38e428c0d843e99edb8a, type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_LightingSettings: {fileID: 4890085278179872738, guid: cbbdf1a70a65e1146a4eca1e6c82857d, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -55586,13 +55586,21 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4139931800447613582, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
+      propertyPath: grassFootstep.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 776b6e6916679de4a809918daf3b95cd, type: 2}
+    - target: {fileID: 4139931800447613582, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
+      propertyPath: asphaltFootStep.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: f6ce56891cb23ee4eb156677e4915bbc, type: 2}
     - target: {fileID: 4578085672643928552, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4578085672643928552, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -56.645905
+      value: -29.27
       objectReference: {fileID: 0}
     - target: {fileID: 4578085672643928552, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -55600,7 +55608,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4578085672643928552, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -37.236103
+      value: 52.25
       objectReference: {fileID: 0}
     - target: {fileID: 4578085672643928552, guid: b4cf63a1cec7ad1438079c5ae4e8152b, type: 3}
       propertyPath: m_LocalRotation.w
