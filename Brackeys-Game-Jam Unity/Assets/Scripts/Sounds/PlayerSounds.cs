@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PlayerSounds : MonoBehaviour
 {
-    public AK.Wwise.Event grassFootstep;
-    public AK.Wwise.Event asphaltFootStep;
     RaycastHit hit;
 
     public void FlashlightOnOffSound()
@@ -19,11 +17,11 @@ public class PlayerSounds : MonoBehaviour
         {
             if (hit.transform.tag == "Grass")
             {
-                grassFootstep.Post(gameObject);
+                AkSoundEngine.PostEvent("player_step_grass", gameObject);
             }
             else if (hit.transform.tag == "Asphalt")
             {
-                asphaltFootStep.Post(gameObject);
+                AkSoundEngine.PostEvent("player_step_asphalt", gameObject);
             }
         }
     }
